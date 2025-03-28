@@ -14,5 +14,9 @@
   {
     "text": "COPD",
     "field": "b"
+  },
+  {
+    "text": "Type 2 diabetes mellitus",
+    "field": "b"
   }
 ]
