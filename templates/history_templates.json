@@ -26,5 +26,9 @@
   {
     "text": "WBC 7500/uL",
     "field": "g"
+  },
+  {
+    "text": "CXR normal",
+    "field": "h"
   }
 ]
