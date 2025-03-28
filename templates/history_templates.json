@@ -14,5 +14,9 @@
   {
     "text": "HTN, DM, dyslipidemia",
     "field": "b"
+  },
+  {
+    "text": "CAD",
+    "field": "b"
   }
 ]
