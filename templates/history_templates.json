@@ -18,5 +18,9 @@
   {
     "text": "55-year-old male",
     "field": "a"
+  },
+  {
+    "text": "00",
+    "field": "f"
   }
 ]
