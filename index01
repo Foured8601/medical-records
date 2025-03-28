@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡易醫療病例系統</title>
+    <style>
+        body {
+            font-family: 'Microsoft JhengHei', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 16px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 16px;
+        }
+        .status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #dff0d8;
+            color: #3c763d;
+        }
+        .error {
+            background-color: #f2dede;
+            color: #a94442;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>簡易醫療病例系統</h1>
+        
+        <div id="token-section">
+            <h2>GitHub 設定</h2>
+            <p>請輸入你的 GitHub 個人訪問令牌和儲存庫資訊</p>
+            <input type="text" id="github-token" placeholder="GitHub 個人訪問令牌">
+            <input type="text" id="github-username" placeholder="GitHub 用戶名">
+            <input type="text" id="github-repo" placeholder="儲存庫名稱" value="medical-records">
+            <button id="save-settings">儲存設定</button>
+        </div>
+        
+        <div id="record-section">
+            <h2>病例內容</h2>
+            <textarea id="record-content" placeholder="請輸入病例內容..."></textarea>
+            <button id="save-button">儲存到 GitHub</button>
+            <div id="status-message" class="status"></div>
+        </div>
+    </div>
+
+    <script>
+        // 儲存設定按鈕點擊事件
+        document.getElementById('save-settings').addEventListener('click', function() {
+            const token = document.getElementById('github-token').value;
+            const username = document.getElementById('github-username').value;
+            const repo = document.getElementById('github-repo').value;
+            
+            if (!token || !username || !repo) {
+                showStatus('請填寫所有設定欄位', 'error');
+                return;
+            }
+            
+            // 儲存設定到 localStorage
+            localStorage.setItem('github_token', token);
+            localStorage.setItem('github_username', username);
+            localStorage.setItem('github_repo', repo);
+            
+            showStatus('設定已儲存', 'success');
+        });
+        
+        // 載入已儲存的設定
+        document.addEventListener('DOMContentLoaded', function() {
+            const token = localStorage.getItem('github_token');
+            const username = localStorage.getItem('github_username');
+            const repo = localStorage.getItem('github_repo');
+            
+            if (token) document.getElementById('github-token').value = token;
+            if (username) document.getElementById('github-username').value = username;
+            if (repo) document.getElementById('github-repo').value = repo;
+        });
+        
+        // 儲存按鈕點擊事件
+        document.getElementById('save-button').addEventListener('click', function() {
+            const recordContent = document.getElementById('record-content').value;
+            
+            if (!recordContent.trim()) {
+                showStatus('請輸入病例內容', 'error');
+                return;
+            }
+            
+            // 獲取 GitHub 設定
+            const token = localStorage.getItem('github_token');
+            const username = localStorage.getItem('github_username');
+            const repo = localStorage.getItem('github_repo');
+            
+            if (!token || !username || !repo) {
+                showStatus('請先完成 GitHub 設定', 'error');
+                return;
+            }
+            
+            // 準備檔案資料
+            const now = new Date();
+            const fileName = `medical-record-${now.getFullYear()}-${(now.getMonth() + 1).toString().padStart(2, '0')}-${now.getDate().toString().padStart(2, '0')}-${now.getHours().toString().padStart(2, '0')}${now.getMinutes().toString().padStart(2, '0')}.md`;
+            const fileContent = `# 醫療病例記錄\n\n日期：${now.toLocaleDateString('zh-TW')}\n時間：${now.toLocaleTimeString('zh-TW')}\n\n${recordContent}`;
+            const encodedContent = btoa(unescape(encodeURIComponent(fileContent))); // 轉為 Base64
+            
+            // 儲存到 GitHub
+            showStatus('正在儲存病例...', '');
+            
+            // 使用 GitHub API 建立檔案
+            fetch(`https://api.github.com/repos/${username}/${repo}/contents/records/${fileName}`, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `token ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    message: '新增醫療病例記錄',
+                    content: encodedContent
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.content) {
+                    showStatus(`病例已成功儲存到 GitHub！\n檔案位置：${data.content.html_url}`, 'success');
+                    // 清空表單
+                    document.getElementById('record-content').value = '';
+                } else {
+                    throw new Error(data.message || '未知錯誤');
+                }
+            })
+            .catch(error => {
+                showStatus('儲存失敗：' + error.message, 'error');
+            });
+        });
+        
+        // 顯示狀態訊息
+        function showStatus(message, type) {
+            const statusElement = document.getElementById('status-message');
+            statusElement.textContent = message;
+            statusElement.className = 'status';
+            
+            if (type) {
+                statusElement.classList.add(type);
+            }
+        }
+    </script>
+</body>
+</html>
