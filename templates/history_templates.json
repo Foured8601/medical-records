@@ -18,5 +18,9 @@
   {
     "text": "CAD",
     "field": "b"
+  },
+  {
+    "text": "type 2 DM",
+    "field": "b"
   }
 ]
