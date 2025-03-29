@@ -4,7 +4,11 @@
     "field": "a"
   },
   {
-    "text": "Vital signs: T 37.2'C, P 76/min, R 18/min, BP 132/78 mmHg",
-    "field": "k"
+    "text": "Vital signs: T 37.2Â°C, P 76/min, R 18/min, BP 132/78 mmHg",
+    "field": "f"
+  },
+  {
+    "text": "PE\nHEENT:\nno facial swelling, anicteric sclera/not pale conjunctiva\nNeck:\nsupple without lymphadenopathy\nTonsil:\nno swelling, no discharge\nChest:\nsymmetrical expansion, no accessory muscle used\nBreath sound:\ncrackles (-) wheezing (-)\nHeart:\nregular heart rate without obvious murmur\nAbdomen:\nsoft and flat, normal-active bowel sounds, no tenderness, no muscle guarding, no rebounding pain, no Mcburney point tenderness, Murphy sign (-), obturator sign (-) Psoas sign (-) Rosving sign (-)\nExt:\nfree movable without pitting edema\nBack:\nno costovertebral angle knocking tenderness",
+    "field": "f"
   }
 ]
