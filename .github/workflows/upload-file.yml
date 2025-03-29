@@ -1,0 +1,23 @@
+name: Upload File to GitHub
+
+on:
+  push:
+    branches:
+      - main  # 當推送到 main 分支時觸發工作流程
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 第一步：檢出倉庫的內容
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 第二步：使用 GitHub Secrets 的 TOKEN 完成操作
+      - name: Use GitHub Secrets
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}  # 從 Secrets 中讀取 Token
+        run: |
+          echo "使用 GitHub Secrets 的 TOKEN"
+          echo $GITHUB_TOKEN
