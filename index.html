@@ -1,152 +1,1460 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>醫療病例系統</title>
-    <style>
-        body {
-            font-family: 'Microsoft JhengHei', Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            margin: 5px;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-        textarea {
-            width: 100%;
-            height: 200px;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-family: inherit;
-            font-size: 16px;
-        }
-        .login-section {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .hidden {
-            display: none;
-        }
-        .status {
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 4px;
-        }
-        .success {
-            background-color: #dff0d8;
-            color: #3c763d;
-        }
-        .error {
-            background-color: #f2dede;
-            color: #a94442;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI醫療病例書寫輔助系統</title>
+  <style>
+      :root {
+          --primary-color: #2c3e50;
+          --secondary-color: #3498db;
+          --accent-color: #e74c3c;
+          --light-bg: #ecf0f1;
+          --dark-bg: #34495e;
+          --text-color: #333;
+          --light-text: #fff;
+          --border-color: #bdc3c7;
+          --success-color: #2ecc71;
+      }
+      
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Microsoft JhengHei', Arial, sans-serif;
+      }
+      
+      body {
+          background-color: var(--light-bg);
+          color: var(--text-color);
+      }
+      
+      .container {
+          display: flex;
+          flex-direction: column;
+          height: 100vh;
+      }
+      
+      header {
+          background-color: var(--primary-color);
+          color: var(--light-text);
+          padding: 1rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      
+      .logo {
+          font-size: 1.5rem;
+          font-weight: bold;
+      }
+      
+      .user-controls {
+          display: flex;
+          gap: 1rem;
+      }
+      
+      .user-controls button {
+          background-color: var(--secondary-color);
+          color: white;
+          border: none;
+          padding: 0.5rem 1rem;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+      
+      .main-content {
+          display: flex;
+          flex: 1;
+          overflow: hidden;
+      }
+      
+      .record-section {
+          flex: 3;
+          padding: 1rem;
+          overflow-y: auto;
+          background-color: white;
+          border-right: 1px solid var(--border-color);
+      }
+      
+      .sidebar {
+          flex: 1;
+          background-color: var(--light-bg);
+          padding: 1rem;
+          overflow-y: auto;
+      }
+      
+      .form-group {
+          margin-bottom: 1rem;
+      }
+      
+      .form-group label {
+          display: block;
+          margin-bottom: 0.5rem;
+          font-weight: bold;
+      }
+      
+      .form-row {
+          display: flex;
+          gap: 1rem;
+          margin-bottom: 1rem;
+      }
+      
+      .form-row .form-group {
+          flex: 1;
+          margin-bottom: 0;
+      }
+      
+      input, select, textarea {
+          width: 100%;
+          padding: 0.5rem;
+          border: 1px solid var(--border-color);
+          border-radius: 4px;
+          font-size: 1rem;
+      }
+      
+      textarea {
+          min-height: 100px;
+          resize: vertical;
+      }
+      
+      .section-header {
+          background-color: var(--secondary-color);
+          color: white;
+          padding: 0.5rem;
+          margin-bottom: 1rem;
+          border-radius: 4px;
+      }
+      
+      .template-section {
+          margin-bottom: 2rem;
+      }
+      
+      .template-header {
+          background-color: var(--dark-bg);
+          color: white;
+          padding: 0.5rem;
+          margin-bottom: 0.5rem;
+          border-radius: 4px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      
+      .template-header h3 {
+          margin: 0;
+      }
+      
+      .template-list {
+          max-height: 300px;
+          overflow-y: auto;
+          background-color: white;
+          border: 1px solid var(--border-color);
+          border-radius: 4px;
+      }
+      
+      .template-item {
+          padding: 0.5rem;
+          border-bottom: 1px solid var(--border-color);
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      
+      .template-item:hover {
+          background-color: var(--light-bg);
+      }
+      
+      .template-item:last-child {
+          border-bottom: none;
+      }
+      
+      .template-item-text {
+          flex-grow: 1;
+      }
+      
+      .template-item-actions {
+          display: flex;
+          gap: 0.25rem;
+          opacity: 0.5;
+      }
+      
+      .template-item:hover .template-item-actions {
+          opacity: 1;
+      }
+      
+      .template-item-actions button {
+          background: none;
+          border: none;
+          cursor: pointer;
+          font-size: 1rem;
+          color: var(--text-color);
+          padding: 0.25rem;
+      }
+      
+      .template-item-actions button:hover {
+          color: var(--accent-color);
+      }
+      
+      .action-buttons {
+          display: flex;
+          gap: 1rem;
+          margin-top: 1rem;
+      }
+      
+      .action-buttons button {
+          flex: 1;
+          padding: 0.75rem;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-weight: bold;
+      }
+      
+      
+/* 發送到AI進行校正按鈕樣式 */
+.correction-btn {
+  background-color: #9C27B0; /* 紫色，與其他按鈕區分 */
+  color: white;
+}
+
+.correction-btn:hover {
+  background-color: #7B1FA2;
+}
+
+
+/* 儲存按鈕樣式 */
+	.save-btn {
+    background-color: var(--success-color);
+    color: white;
+    padding: 0.75rem; /* 增加內邊距使按鈕更厚 */
+    font-weight: bold; /* 加粗文字 */
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2); /* 添加陰影增加立體感 */
+    transition: all 0.2s ease; /* 添加過渡效果 */
+}
+
+.save-btn:hover {
+    transform: translateY(2px); /* 懸停時輕微下沉 */
+    box-shadow: 0 2px 0 rgba(0,0,0,0.2); /* 懸停時減少陰影 */
+}
+
+.save-btn:active {
+    transform: translateY(4px); /* 點擊時完全下沉 */
+    box-shadow: none; /* 點擊時移除陰影 */
+}
+      
+      .ai-btn {
+          background-color: var(--accent-color);
+          color: white;
+      }
+      
+      .export-btn {
+          background-color: var(--dark-bg);
+          color: white;
+      }
+      
+      .search-box {
+          margin-bottom: 1rem;
+      }
+      
+      .search-box input {
+          padding-left: 2rem;
+          background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>');
+          background-repeat: no-repeat;
+          background-position: 0.5rem center;
+      }
+      
+      footer {
+          background-color: var(--primary-color);
+          color: var(--light-text);
+          padding: 0.5rem 1rem;
+          text-align: center;
+          font-size: 0.8rem;
+      }
+      
+      /* Tabs for template categories */
+      .tabs {
+          display: flex;
+          margin-bottom: 1rem;
+      }
+      
+      .tab {
+          padding: 0.5rem 1rem;
+          background-color: var(--light-bg);
+          cursor: pointer;
+          border: 1px solid var(--border-color);
+          border-bottom: none;
+          border-radius: 4px 4px 0 0;
+      }
+      
+      .tab.active {
+          background-color: white;
+          font-weight: bold;
+      }
+      
+      .tab-content {
+          display: none;
+      }
+      
+      .tab-content.active {
+          display: block;
+      }
+      
+      /* AI suggestions panel */
+      .ai-suggestions {
+          margin-top: 1rem;
+          padding: 1rem;
+          background-color: #f8f9fa;
+          border: 1px solid var(--border-color);
+          border-radius: 4px;
+      }
+      
+      /* Preview panel */
+      #previewPanel {
+          margin-top: 1rem;
+          padding: 1rem;
+          background-color: white;
+          border: 1px solid var(--border-color);
+          border-radius: 4px;
+          white-space: pre-wrap;
+      }
+      
+      /* 整合original.html的表單樣式 */
+      .admission-form {
+          background-color: white;
+          padding: 1rem;
+          border-radius: 4px;
+          box-shadow: 0 0 5px rgba(0,0,0,0.1);
+          margin-bottom: 1rem;
+      }
+      
+      .admission-form .form-group {
+          margin-bottom: 1rem;
+      }
+      
+      .admission-form label {
+          display: block;
+          margin-bottom: 0.5rem;
+          color: var(--primary-color);
+          font-weight: bold;
+      }
+      
+      .admission-form textarea {
+          width: 100%;
+          padding: 0.5rem;
+          border: 1px solid var(--border-color);
+          border-radius: 4px;
+          resize: vertical;
+          min-height: 60px;
+      }
+      
+      /* 狀態訊息樣式 */
+      .status-message {
+          margin-top: 10px;
+          padding: 10px;
+          border-radius: 4px;
+      }
+      
+      .status-success {
+          background-color: #d4edda;
+          color: #155724;
+      }
+      
+      .status-error {
+          background-color: #f8d7da;
+          color: #721c24;
+      }
+      
+      /* 模態框樣式 */
+      .modal {
+          display: none;
+          position: fixed;
+          z-index: 1000;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0,0,0,0.5);
+      }
+      
+      .modal-content {
+          background-color: white;
+          margin: 10% auto;
+          padding: 20px;
+          border-radius: 5px;
+          width: 50%;
+          max-width: 500px;
+      }
+      
+      .close {
+          color: #aaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      
+      .close:hover {
+          color: black;
+      }
+      
+      .template-add-btn {
+          background-color: var(--success-color);
+          color: white;
+          border: none;
+          padding: 0.25rem 0.5rem;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 0.8rem;
+      }
+      
+      .template-sync-btn {
+          background-color: var(--secondary-color);
+          color: white;
+          border: none;
+          padding: 0.25rem 0.5rem;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 0.8rem;
+          margin-left: 0.5rem;
+      }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>醫療病例系統</h1>
-        
-        <!-- 登入區塊 -->
-        <div id="login-section" class="login-section">
-            <p>請先登入 GitHub 以便儲存病例</p>
-            <button id="login-button">登入 GitHub</button>
+  <div class="container">
+    <header>
+      <div class="logo">AI醫療病例書寫輔助系統</div>
+      <div class="user-controls">
+        <button id="settingsBtn">設定</button>
+        <button id="helpBtn">說明</button>
+      </div>
+    </header>
+    
+    <div class="main-content">
+      <div class="record-section">
+        <div class="section-header">
+          <h2>入院紀錄</h2>
         </div>
         
-        <!-- 病例表單區塊 (初始隱藏) -->
-        <div id="record-section" class="hidden">
-            <h2>病例內容</h2>
-            <textarea id="record-content" placeholder="請輸入病例內容..."></textarea>
-            <button id="save-button">儲存到 GitHub</button>
-            <div id="status-message" class="status"></div>
+        <!-- 整合original.html的表單結構 -->
+        <div class="admission-form" id="admissionForm">
+          <div class="form-group">
+            <label for="a">A</label>
+            <textarea id="a" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="b">with a history of</label>
+            <textarea id="b" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="c">According to the patient's statement, he/she suffered from</label>
+            <textarea id="c" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="d">Associated symptoms included</label>
+            <textarea id="d" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="e">Denied symptoms included</label>
+            <textarea id="e" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="k">After that,</label>
+            <textarea id="k" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="f">Physical exam showed</label>
+            <textarea id="f" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="g">Lab data showed</label>
+            <textarea id="g" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="h">Imaging studies showed</label>
+            <textarea id="h" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="i">Under the impression of</label>
+            <textarea id="i" rows="2"></textarea>
+          </div>
         </div>
-    </div>
+        
+        <div class="action-buttons">
+          <button class="save-btn" id="saveBtn">儲存病例</button>
+          <button class="ai-btn" id="generateBtn">生成病例</button>
+          <button class="correction-btn" id="sendToAIButton">發送到AI進行校正</button>
+        </div>
+        
+        <!-- 狀態訊息 -->
+        <div id="statusMessage" class="status-message" style="display: none;"></div>
+        
+        <!-- 預覽區域 -->
+        <div id="previewPanel"></div>
+<div id="apiResponse"></div>
 
-    <script>
-        // GitHub OAuth 設定
-        const clientId = 'Ov23liAnfkks1zSyjCaA'; // 替換為你的 Client ID
-        const redirectUri = window.location.href;
+      </div>
+      
+      <div class="sidebar">
+        <div class="search-box">
+          <input type="text" placeholder="搜尋模板..." id="searchTemplate">
+        </div>
         
-        // 頁面載入時檢查是否已登入
-        document.addEventListener('DOMContentLoaded', function() {
-            // 檢查 URL 是否包含授權碼
-            const urlParams = new URLSearchParams(window.location.search);
-            const code = urlParams.get('code');
-            
-            if (code) {
-                // 有授權碼，顯示表單區塊
-                document.getElementById('login-section').classList.add('hidden');
-                document.getElementById('record-section').classList.remove('hidden');
-                
-                // 儲存授權碼到 localStorage (實際應用中應換成更安全的方式)
-                localStorage.setItem('github_auth_code', code);
-                
-                // 清除 URL 中的授權碼
-                window.history.replaceState({}, document.title, window.location.pathname);
-                
-                showStatus('登入成功！現在可以儲存病例了。', 'success');
-            } else if (localStorage.getItem('github_auth_code')) {
-                // 已有授權碼，顯示表單區塊
-                document.getElementById('login-section').classList.add('hidden');
-                document.getElementById('record-section').classList.remove('hidden');
-            }
+        <div class="tabs">
+          <div class="tab active" data-tab="common">常用模板</div>
+          <div class="tab" data-tab="personal">個人模板</div>
+          <div class="tab" data-tab="department">科別模板</div>
+        </div>
+        
+        <div class="tab-content active" id="commonTab">
+          <div class="template-section">
+            <div class="template-header">
+              <h3>常見片語</h3>
+              <div>
+                <button id="addHistoryBtn" class="template-add-btn">新增</button>
+                <button id="syncHistoryBtn" class="template-sync-btn">同步</button>
+              </div>
+            </div>
+            <div class="template-list" id="historyTemplateList">
+              <!-- 常見片語項目將由 JavaScript 動態生成 -->
+            </div>
+          </div>  
+        </div>
+        
+       <div class="tab-content" id="personalTab">
+  <div class="template-section">
+    <div class="template-header">
+      <h3>我的模板</h3>
+      <div>
+        <button id="addPersonalBtn" class="template-add-btn">新增</button>
+        <button id="syncPersonalBtn" class="template-sync-btn">同步</button>
+      </div>
+    </div>
+    <div class="template-list" id="personalTemplateList">
+      <!-- 個人模板項目將由 JavaScript 動態生成 -->
+    </div>
+  </div>
+</div>
+
+        
+       <div class="tab-content" id="departmentTab">
+  <div class="template-section">
+    <div class="template-header">
+      <h3>科別專用模板</h3>
+      <div>
+        <button id="addDepartmentBtn" class="template-add-btn">新增</button>
+        <button id="syncDepartmentBtn" class="template-sync-btn">同步</button>
+      </div>
+    </div>
+    <div class="template-list" id="departmentTemplateList">
+      <!-- 科別專用模板項目將由 JavaScript 動態生成 -->
+    </div>
+  </div>
+</div>
+
+
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      © 2025 AI醫療病例書寫輔助系統 | 版本 1.0
+    </footer>
+  </div>
+  
+  <!-- 新增/編輯模板項目模態框 -->
+  <div id="templateModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle">新增常見片語</h2>
+      <div class="form-group">
+        <label for="templateText">病史內容</label>
+        <textarea id="templateText" rows="3" placeholder="輸入病史內容"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="templateField">對應欄位</label>
+        <select id="templateField">
+          <option value="a">Patient profile</option>
+          <option value="b">Past history</option>
+          <option value="c">Chief complaint</option>
+          <option value="d">Associated symptoms included</option>
+          <option value="e">Denied symptoms included</option>
+          <option value="f">Physical exam showed</option>
+          <option value="g">Lab data</option>
+          <option value="h">Imaging studies</option>
+          <option value="i">Impression</option>
+  
+          <option value="k">Clinical coarse</option>
+        </select>
+      </div>
+      <button id="saveTemplateBtn" class="save-btn" style="width: 100%; margin-top: 10px;">儲存</button>
+    </div>
+  </div>
+
+<script>
+    // 預設的 GitHub 設定
+    const githubToken = "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"; // 請替換為您的 GitHub Token
+    const githubUsername = "foured8601"; // 請替換為您的 GitHub 用戶名
+    const githubRepo = "medical-records"; // 請替換為您的 GitHub 倉庫名
+    const githubBranch = "main";
+  
+  // 生成台灣時區的時間戳記
+const generateTaiwanTimestamp = () => {
+  // 創建日期對象
+  const now = new Date();
+  
+  // 使用toLocaleString設定台灣時區和格式
+  return now.toLocaleString('zh-TW', {
+    timeZone: 'Asia/Taipei',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  }).replace(/[/:\s]/g, '-');
+};
+  
+  
+  // 儲存病例按鈕點擊事件（更新版）
+document.getElementById('saveBtn').addEventListener('click', async () => {
+  try {
+    // 獲取apiResponse的內容
+    const apiResponseContent = document.getElementById('apiResponse').textContent;
+    
+    // 如果內容為空，提示用戶
+    if (!apiResponseContent || apiResponseContent.trim() === '') {
+      showStatus("無內容可保存，請先生成內容或使用AI處理", false);
+      return;
+    }
+    
+    // 生成文件名（使用當前時間戳）
+    const timestamp = generateTaiwanTimestamp();
+    const filename = `records/${timestamp}.md`;
+    
+    // 準備文件內容（可以添加一些元數據）
+    const fileContent = `# 病例記錄 - ${new Date().toLocaleString('zh-TW')}\n\n${apiResponseContent}`;
+    const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
+    
+    // 準備請求體
+    const requestBody = {
+      message: `保存病例記錄 - ${timestamp}`,
+      content: base64Content,
+      branch: githubBranch
+    };
+    
+    // 發送請求保存文件
+    const response = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${filename}`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `token ${githubToken}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(requestBody)
+    });
+    
+    if (response.status === 201) {
+      const data = await response.json();
+      showStatus(`病例已成功保存到GitHub: ${filename}`, true);
+      
+      // 可選：顯示文件鏈接
+      console.log(`文件URL: ${data.content.html_url}`);
+    } else {
+      const errorData = await response.json();
+      throw new Error(errorData.message || "保存失敗");
+    }
+  } catch (error) {
+    console.error("保存病例時發生錯誤:", error);
+    showStatus(`保存病例失敗: ${error.message}`, false);
+  }
+});
+
+  
+  
+    // 常見片語模板
+    let historyTemplates = [
+      { text: "HTN, DM, hyperlipidemia", field: "b" },
+      { text: "CAD s/p PCI", field: "b" },
+      { text: "CKD stage 3", field: "b" },
+      { text: "COPD", field: "b" }
+    ];
+    
+    // 個人模板
+    let personalTemplates = [
+      { text: "56-year-old male", field: "a" },
+      { text: "Vital signs: T 37.2°C, P 76/min, R 18/min, BP 132/78 mmHg", field: "f" }
+    ];
+    
+    // 科別專用模板
+    let departmentTemplates = [
+      { text: "Acute myocardial infarction", field: "i" },
+      { text: "Community-acquired pneumonia", field: "i" },
+      { text: "1. Admission to cardiac care unit\n2. Aspirin 100mg QD\n3. Arrange coronary angiography", field: "j" }
+    ];
+    
+    // 模板檔案路徑
+    const templatesFilePath = "templates/history_templates.json";
+    const personalTemplatesFilePath = "templates/personal_templates.json";
+    const departmentTemplatesFilePath = "templates/department_templates.json";
+    
+    // 頁面載入時，從 GitHub 獲取模板資料
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        await loadHistoryTemplates();
+        await loadPersonalTemplates();
+        await loadDepartmentTemplates();
+      } catch (error) {
+        console.error("載入模板失敗:", error);
+        // 如果載入失敗，使用預設模板
+        renderHistoryTemplates();
+        renderPersonalTemplates();
+        renderDepartmentTemplates();
+      }
+      
+      // 設置搜尋功能
+      document.getElementById('searchTemplate').addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
+        filterTemplates(searchTerm);
+      });
+      
+      // 設置標籤頁切換功能
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          // 移除所有標籤的active類
+          document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+          // 為當前標籤添加active類
+          tab.classList.add('active');
+          
+          // 隱藏所有標籤內容
+          document.querySelectorAll('.tab-content').forEach(content => {
+            content.classList.remove('active');
+          });
+          // 顯示當前標籤內容
+          const tabId = tab.getAttribute('data-tab') + 'Tab';
+          document.getElementById(tabId).classList.add('active');
+        });
+      });
+    });
+    
+    // 從 GitHub 載入常見片語模板
+    async function loadHistoryTemplates() {
+      try {
+        const response = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${templatesFilePath}`, {
+          headers: {
+            'Authorization': `token ${githubToken}`
+          }
         });
         
-        // 登入按鈕點擊事件
-        document.getElementById('login-button').addEventListener('click', function() {
-            // 構建 GitHub OAuth 授權 URL
-            const authUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=repo`;
-            
-            // 導向到 GitHub 授權頁面
-            window.location.href = authUrl;
-        });
-        
-        // 儲存按鈕點擊事件
-        document.getElementById('save-button').addEventListener('click', function() {
-            const recordContent = document.getElementById('record-content').value;
-            
-            if (!recordContent.trim()) {
-                showStatus('請輸入病例內容', 'error');
-                return;
-            }
-            
-            // 這裡只是顯示訊息，實際儲存功能會在下一步實現
-            showStatus('準備儲存病例...', '');
-            
-            // 這裡將在下一步加入儲存到 GitHub 的程式碼
-        });
-        
-        // 顯示狀態訊息
-        function showStatus(message, type) {
-            const statusElement = document.getElementById('status-message');
-            statusElement.textContent = message;
-            statusElement.className = 'status';
-            
-            if (type) {
-                statusElement.classList.add(type);
-            }
+        if (response.status === 200) {
+          const data = await response.json();
+          const content = atob(data.content);
+          historyTemplates = JSON.parse(content);
+          renderHistoryTemplates();
+          showStatus("常見片語模板已從 GitHub 成功載入", true);
+        } else if (response.status === 404) {
+          // 如果檔案不存在，使用預設模板並儲存到 GitHub
+          await saveHistoryTemplatesToGitHub();
+          renderHistoryTemplates();
+        } else {
+          throw new Error(`GitHub API 回應狀態碼: ${response.status}`);
         }
-    </script>
+      } catch (error) {
+        console.error("載入常見片語模板時發生錯誤:", error);
+        throw error;
+      }
+    }
+    
+    // 從 GitHub 載入個人模板
+    async function loadPersonalTemplates() {
+      try {
+        const response = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${personalTemplatesFilePath}`, {
+          headers: {
+            'Authorization': `token ${githubToken}`
+          }
+        });
+        
+        if (response.status === 200) {
+          const data = await response.json();
+          const content = atob(data.content);
+          personalTemplates = JSON.parse(content);
+          renderPersonalTemplates();
+          showStatus("個人模板已從 GitHub 成功載入", true);
+        } else if (response.status === 404) {
+          // 如果檔案不存在，使用預設模板並儲存到 GitHub
+          await savePersonalTemplatesToGitHub();
+          renderPersonalTemplates();
+        } else {
+          throw new Error(`GitHub API 回應狀態碼: ${response.status}`);
+        }
+      } catch (error) {
+        console.error("載入個人模板時發生錯誤:", error);
+        throw error;
+      }
+    }
+    
+    // 從 GitHub 載入科別專用模板
+    async function loadDepartmentTemplates() {
+      try {
+        const response = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${departmentTemplatesFilePath}`, {
+          headers: {
+            'Authorization': `token ${githubToken}`
+          }
+        });
+        
+        if (response.status === 200) {
+          const data = await response.json();
+          const content = atob(data.content);
+          departmentTemplates = JSON.parse(content);
+          renderDepartmentTemplates();
+          showStatus("科別專用模板已從 GitHub 成功載入", true);
+        } else if (response.status === 404) {
+          // 如果檔案不存在，使用預設模板並儲存到 GitHub
+          await saveDepartmentTemplatesToGitHub();
+          renderDepartmentTemplates();
+        } else {
+          throw new Error(`GitHub API 回應狀態碼: ${response.status}`);
+        }
+      } catch (error) {
+        console.error("載入科別專用模板時發生錯誤:", error);
+        throw error;
+      }
+    }
+    
+    // 將常見片語模板儲存到 GitHub
+    async function saveHistoryTemplatesToGitHub() {
+      try {
+        const content = JSON.stringify(historyTemplates, null, 2);
+        const base64Content = btoa(unescape(encodeURIComponent(content)));
+        
+        // 檢查檔案是否已存在，獲取 SHA
+        let fileSha = null;
+        try {
+          const checkResponse = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${templatesFilePath}`, {
+            headers: {
+              'Authorization': `token ${githubToken}`
+            }
+          });
+          
+          if (checkResponse.status === 200) {
+            const fileData = await checkResponse.json();
+            fileSha = fileData.sha;
+          }
+        } catch (e) {
+          console.error("檢查檔案時發生錯誤:", e);
+        }
+        
+        // 準備請求體
+        const requestBody = {
+          message: "更新常見片語模板",
+          content: base64Content,
+          branch: githubBranch
+        };
+        
+        // 如果檔案已存在，添加 SHA
+        if (fileSha) {
+          requestBody.sha = fileSha;
+        }
+        
+        const response = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${templatesFilePath}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `token ${githubToken}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(requestBody)
+        });
+        
+        if (response.status === 200 || response.status === 201) {
+          showStatus("常見片語模板已成功儲存到 GitHub", true);
+        } else {
+          const data = await response.json();
+          throw new Error(data.message || "儲存模板失敗");
+        }
+      } catch (error) {
+        console.error("儲存常見片語模板時發生錯誤:", error);
+        showStatus(`儲存常見片語模板失敗: ${error.message}`, false);
+        throw error;
+      }
+    }
+    
+    // 將個人模板儲存到 GitHub
+    async function savePersonalTemplatesToGitHub() {
+      try {
+        const content = JSON.stringify(personalTemplates, null, 2);
+        const base64Content = btoa(unescape(encodeURIComponent(content)));
+        
+        // 檢查檔案是否已存在，獲取 SHA
+        let fileSha = null;
+        try {
+          const checkResponse = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${personalTemplatesFilePath}`, {
+            headers: {
+              'Authorization': `token ${githubToken}`
+            }
+          });
+          
+          if (checkResponse.status === 200) {
+            const fileData = await checkResponse.json();
+            fileSha = fileData.sha;
+          }
+        } catch (e) {
+          console.error("檢查檔案時發生錯誤:", e);
+        }
+        
+        // 準備請求體
+        const requestBody = {
+          message: "更新個人模板",
+          content: base64Content,
+          branch: githubBranch
+        };
+        
+        // 如果檔案已存在，添加 SHA
+        if (fileSha) {
+          requestBody.sha = fileSha;
+        }
+        
+        const response = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${personalTemplatesFilePath}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `token ${githubToken}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(requestBody)
+        });
+        
+        if (response.status === 200 || response.status === 201) {
+          showStatus("個人模板已成功儲存到 GitHub", true);
+        } else {
+          const data = await response.json();
+          throw new Error(data.message || "儲存個人模板失敗");
+        }
+      } catch (error) {
+        console.error("儲存個人模板時發生錯誤:", error);
+        showStatus(`儲存個人模板失敗: ${error.message}`, false);
+        throw error;
+      }
+    }
+    
+    // 將科別專用模板儲存到 GitHub
+    async function saveDepartmentTemplatesToGitHub() {
+      try {
+        const content = JSON.stringify(departmentTemplates, null, 2);
+        const base64Content = btoa(unescape(encodeURIComponent(content)));
+        
+        // 檢查檔案是否已存在，獲取 SHA
+        let fileSha = null;
+        try {
+          const checkResponse = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${departmentTemplatesFilePath}`, {
+            headers: {
+              'Authorization': `token ${githubToken}`
+            }
+          });
+          
+          if (checkResponse.status === 200) {
+            const fileData = await checkResponse.json();
+            fileSha = fileData.sha;
+          }
+        } catch (e) {
+          console.error("檢查檔案時發生錯誤:", e);
+        }
+        
+        // 準備請求體
+        const requestBody = {
+          message: "更新科別專用模板",
+          content: base64Content,
+          branch: githubBranch
+        };
+        
+        // 如果檔案已存在，添加 SHA
+        if (fileSha) {
+          requestBody.sha = fileSha;
+        }
+        
+        const response = await fetch(`https://api.github.com/repos/${githubUsername}/${githubRepo}/contents/${departmentTemplatesFilePath}`, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `token ${githubToken}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(requestBody)
+        });
+        
+        if (response.status === 200 || response.status === 201) {
+          showStatus("科別專用模板已成功儲存到 GitHub", true);
+        } else {
+          const data = await response.json();
+          throw new Error(data.message || "儲存科別專用模板失敗");
+        }
+      } catch (error) {
+        console.error("儲存科別專用模板時發生錯誤:", error);
+        showStatus(`儲存科別專用模板失敗: ${error.message}`, false);
+        throw error;
+      }
+    }
+    
+    // 渲染常見片語模板列表
+    function renderHistoryTemplates() {
+      const listElement = document.getElementById('historyTemplateList');
+      listElement.innerHTML = '';
+      
+      historyTemplates.forEach((template, index) => {
+        const item = document.createElement('div');
+        item.className = 'template-item';
+        item.setAttribute('data-field', template.field);
+        
+        item.innerHTML = `
+          <span class="template-item-text">${template.text}</span>
+          <div class="template-item-actions">
+            <button class="edit-btn" data-index="${index}">✏️</button>
+            <button class="delete-btn" data-index="${index}">🗑️</button>
+          </div>
+        `;
+        
+        // 點擊模板項目將內容添加到對應的表單欄位
+        item.querySelector('.template-item-text').addEventListener('click', () => {
+          const fieldId = template.field;
+          const field = document.getElementById(fieldId);
+          
+          if (field) {
+            if (field.value.trim() !== '') {
+              field.value += ', ' + template.text;
+            } else {
+              field.value = template.text;
+            }
+          }
+        });
+        
+        // 編輯按鈕點擊事件
+        item.querySelector('.edit-btn').addEventListener('click', (e) => {
+          e.stopPropagation();
+          openTemplateModal('edit', index, 'history');
+        });
+        
+        // 刪除按鈕點擊事件
+        item.querySelector('.delete-btn').addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (confirm('確定要刪除此模板嗎？')) {
+            historyTemplates.splice(index, 1);
+            renderHistoryTemplates();
+            
+            // 自動同步到 GitHub
+            try {
+              saveHistoryTemplatesToGitHub();
+            } catch (error) {
+              console.error("自動同步失敗:", error);
+            }
+          }
+        });
+        
+        listElement.appendChild(item);
+      });
+    }
+    
+    // 渲染個人模板列表
+    function renderPersonalTemplates() {
+      const listElement = document.getElementById('personalTemplateList');
+      listElement.innerHTML = '';
+      
+      personalTemplates.forEach((template, index) => {
+        const item = document.createElement('div');
+        item.className = 'template-item';
+        item.setAttribute('data-field', template.field);
+        
+        item.innerHTML = `
+          <span class="template-item-text">${template.text}</span>
+          <div class="template-item-actions">
+            <button class="edit-btn" data-index="${index}">✏️</button>
+            <button class="delete-btn" data-index="${index}">🗑️</button>
+          </div>
+        `;
+        
+        // 點擊模板項目將內容添加到對應的表單欄位
+        item.querySelector('.template-item-text').addEventListener('click', () => {
+          const fieldId = template.field;
+          const field = document.getElementById(fieldId);
+          
+          if (field) {
+            if (field.value.trim() !== '') {
+              field.value += ', ' + template.text;
+            } else {
+              field.value = template.text;
+            }
+          }
+        });
+        
+        // 編輯按鈕點擊事件
+        item.querySelector('.edit-btn').addEventListener('click', (e) => {
+          e.stopPropagation();
+          openTemplateModal('edit', index, 'personal');
+        });
+        
+        // 刪除按鈕點擊事件
+        item.querySelector('.delete-btn').addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (confirm('確定要刪除此模板嗎？')) {
+            personalTemplates.splice(index, 1);
+            renderPersonalTemplates();
+            
+            // 自動同步到 GitHub
+            try {
+              savePersonalTemplatesToGitHub();
+            } catch (error) {
+              console.error("自動同步失敗:", error);
+            }
+          }
+        });
+        
+        listElement.appendChild(item);
+      });
+    }
+    
+    // 渲染科別專用模板列表
+    function renderDepartmentTemplates() {
+      const listElement = document.getElementById('departmentTemplateList');
+      listElement.innerHTML = '';
+      
+      departmentTemplates.forEach((template, index) => {
+        const item = document.createElement('div');
+        item.className = 'template-item';
+        item.setAttribute('data-field', template.field);
+        
+        item.innerHTML = `
+          <span class="template-item-text">${template.text}</span>
+          <div class="template-item-actions">
+            <button class="edit-btn" data-index="${index}">✏️</button>
+            <button class="delete-btn" data-index="${index}">🗑️</button>
+          </div>
+        `;
+        
+        // 點擊模板項目將內容添加到對應的表單欄位
+        item.querySelector('.template-item-text').addEventListener('click', () => {
+          const fieldId = template.field;
+          const field = document.getElementById(fieldId);
+          
+          if (field) {
+            if (field.value.trim() !== '') {
+              field.value += ', ' + template.text;
+            } else {
+              field.value = template.text;
+            }
+          }
+        });
+        
+        // 編輯按鈕點擊事件
+        item.querySelector('.edit-btn').addEventListener('click', (e) => {
+          e.stopPropagation();
+          openTemplateModal('edit', index, 'department');
+        });
+        
+        // 刪除按鈕點擊事件
+        item.querySelector('.delete-btn').addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (confirm('確定要刪除此模板嗎？')) {
+            departmentTemplates.splice(index, 1);
+            renderDepartmentTemplates();
+            
+            // 自動同步到 GitHub
+            try {
+              saveDepartmentTemplatesToGitHub();
+            } catch (error) {
+              console.error("自動同步失敗:", error);
+            }
+          }
+        });
+        
+        listElement.appendChild(item);
+      });
+    }
+    
+    // 過濾模板項目
+    function filterTemplates(searchTerm) {
+      const items = document.querySelectorAll('.template-item');
+      items.forEach(item => {
+        const text = item.querySelector('.template-item-text').textContent.toLowerCase();
+        if (text.includes(searchTerm)) {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+    
+    // 開啟模板編輯模態框
+    function openTemplateModal(mode, index, type) {
+      const modal = document.getElementById('templateModal');
+      const modalTitle = document.getElementById('modalTitle');
+      const templateText = document.getElementById('templateText');
+      const templateField = document.getElementById('templateField');
+      const saveTemplateBtn = document.getElementById('saveTemplateBtn');
+      
+      // 設置模態框標題和內容
+      if (mode === 'add') {
+        if (type === 'history') {
+          modalTitle.textContent = '新增常見片語';
+          templateField.value = 'b';
+        } else if (type === 'personal') {
+          modalTitle.textContent = '新增個人模板';
+          templateField.value = 'a';
+        } else if (type === 'department') {
+          modalTitle.textContent = '新增科別專用模板';
+          templateField.value = 'i';
+        }
+        templateText.value = '';
+      } else if (mode === 'edit') {
+        if (type === 'history') {
+          modalTitle.textContent = '編輯常見片語';
+          const template = historyTemplates[index];
+          templateText.value = template.text;
+          templateField.value = template.field;
+        } else if (type === 'personal') {
+          modalTitle.textContent = '編輯個人模板';
+          const template = personalTemplates[index];
+          templateText.value = template.text;
+          templateField.value = template.field;
+        } else if (type === 'department') {
+          modalTitle.textContent = '編輯科別專用模板';
+          const template = departmentTemplates[index];
+          templateText.value = template.text;
+          templateField.value = template.field;
+        }
+      }
+      
+      // 儲存按鈕點擊事件
+      saveTemplateBtn.onclick = async () => {
+        const text = templateText.value.trim();
+        const field = templateField.value;
+        
+        if (!text) {
+          alert('請輸入模板內容');
+          return;
+        }
+        
+        if (type === 'history') {
+          if (mode === 'add') {
+            historyTemplates.push({ text, field });
+          } else if (mode === 'edit') {
+            historyTemplates[index] = { text, field };
+          }
+          
+          renderHistoryTemplates();
+          
+          // 自動同步到 GitHub
+          try {
+            await saveHistoryTemplatesToGitHub();
+          } catch (error) {
+            console.error("自動同步失敗:", error);
+          }
+        } else if (type === 'personal') {
+          if (mode === 'add') {
+            personalTemplates.push({ text, field });
+          } else if (mode === 'edit') {
+            personalTemplates[index] = { text, field };
+          }
+          
+          renderPersonalTemplates();
+          
+          // 自動同步到 GitHub
+          try {
+            await savePersonalTemplatesToGitHub();
+          } catch (error) {
+            console.error("自動同步失敗:", error);
+          }
+        } else if (type === 'department') {
+          if (mode === 'add') {
+            departmentTemplates.push({ text, field });
+          } else if (mode === 'edit') {
+            departmentTemplates[index] = { text, field };
+          }
+          
+          renderDepartmentTemplates();
+          
+          // 自動同步到 GitHub
+          try {
+            await saveDepartmentTemplatesToGitHub();
+          } catch (error) {
+            console.error("自動同步失敗:", error);
+          }
+        }
+        
+        modal.style.display = 'none';
+      };
+      
+      // 顯示模態框
+      modal.style.display = 'block';
+    }
+    
+    // 新增常見片語按鈕點擊事件
+    document.getElementById('addHistoryBtn').addEventListener('click', () => {
+      openTemplateModal('add', null, 'history');
+    });
+    
+    // 新增個人模板按鈕點擊事件
+    document.getElementById('addPersonalBtn').addEventListener('click', () => {
+      openTemplateModal('add', null, 'personal');
+    });
+    
+    // 新增科別專用模板按鈕點擊事件
+    document.getElementById('addDepartmentBtn').addEventListener('click', () => {
+      openTemplateModal('add', null, 'department');
+    });
+    
+    // 同步常見片語按鈕點擊事件
+    document.getElementById('syncHistoryBtn').addEventListener('click', async () => {
+      try {
+        await saveHistoryTemplatesToGitHub();
+      } catch (error) {
+        console.error("同步常見片語模板失敗:", error);
+      }
+    });
+    
+    // 同步個人模板按鈕點擊事件
+    document.getElementById('syncPersonalBtn').addEventListener('click', async () => {
+      try {
+        await savePersonalTemplatesToGitHub();
+      } catch (error) {
+        console.error("同步個人模板失敗:", error);
+      }
+    });
+    
+    // 同步科別專用模板按鈕點擊事件
+    document.getElementById('syncDepartmentBtn').addEventListener('click', async () => {
+      try {
+        await saveDepartmentTemplatesToGitHub();
+      } catch (error) {
+        console.error("同步科別專用模板失敗:", error);
+      }
+    });
+    
+    // 模態框關閉按鈕點擊事件
+    document.querySelectorAll('.close').forEach(closeBtn => {
+      closeBtn.addEventListener('click', () => {
+        closeBtn.closest('.modal').style.display = 'none';
+      });
+    });
+    
+    // 點擊模態框外部關閉
+    window.addEventListener('click', (event) => {
+      if (event.target.classList.contains('modal')) {
+        event.target.style.display = 'none';
+      }
+    });
+    
+    // 顯示狀態訊息函數
+    function showStatus(message, isSuccess) {
+      const statusElement = document.getElementById('statusMessage');
+      statusElement.textContent = message;
+      statusElement.className = 'status-message ' + (isSuccess ? 'status-success' : 'status-error');
+      statusElement.style.display = 'block';
+      
+      // 5秒後自動隱藏
+      setTimeout(() => {
+        statusElement.style.display = 'none';
+      }, 5000);
+    }
+    
+    // 生成病例按鈕點擊事件
+    document.getElementById('generateBtn').addEventListener('click', () => {
+      // 這裡可以添加使用 AI 生成病例的邏輯
+      showStatus("正在生成病例...", true);
+      
+      // 模擬生成過程
+      setTimeout(() => {
+        const previewPanel = document.getElementById('previewPanel');
+        
+        // 收集表單數據
+        const formData = {};
+        document.querySelectorAll('#admissionForm textarea').forEach(textarea => {
+          formData[textarea.id] = textarea.value;
+        });
+        
+        // 生成預覽內容
+// 先收集各部分內容，但不添加空行
+let parts = [];
+if (formData.a) parts.push(`A ${formData.a}`);
+if (formData.b) parts.push(`with a history of ${formData.b}`);
+if (formData.c) parts.push(`According to the patient's statement, he/she suffered from ${formData.c}`);
+if (formData.d) parts.push(`Associated symptoms included ${formData.d}`);
+if (formData.e) parts.push(`Denied symptoms included ${formData.e}`);
+if (formData.k) parts.push(`After that, ${formData.k}`);
+if (formData.f) parts.push(`Physical exam showed ${formData.f}`);
+if (formData.g) parts.push(`Lab data showed ${formData.g}`);
+if (formData.h) parts.push(`Imaging studies showed ${formData.h}`);
+if (formData.i) parts.push(`Under the impression of ${formData.i}`);
+if (formData.j) parts.push(`Plan: ${formData.j}`);
+
+// 將所有部分用句號和空格連接起來，形成連貫的文章
+let previewContent = parts.join('. ');
+// 確保每個句子後面都有句號
+previewContent = previewContent.replace(/\.\s+\./g, '.').replace(/\.\./g, '.');
+// 如果內容不為空，確保文章末尾有句號
+if (previewContent && !previewContent.endsWith('.')) {
+    previewContent += '.';
+}
+
+// 顯示預覽內容
+previewPanel.textContent = previewContent;
+
+// 添加發送到AI的函數
+function sendToAI() {
+    // AI處理的prompt
+    const prompt = "Please help me correct grammatical and spelling errors. Do not modified any date. Do not use any bold text or bullet points. Here is the text:. Try to include units for all relevant data. Do not use any bold text or bullet points. Present the information in a continuous, narrative paragraph format. Please do not significantly modify the narrative style of the content. Here is the text:";
+    
+    // 合併prompt和預覽內容
+    const fullText = prompt + " " + previewContent;
+    
+    // Send API Request
+    const API_KEY = 'AIzaSyC1M0qNbbDqdMy6UWfB-fmoFklSu4wR510';
+    const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+
+    fetch(`${API_URL}?key=${API_KEY}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            contents: [{
+                parts: [{
+                    text: fullText
+                }]
+            }]
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data && data.candidates && data.candidates.length > 0 && data.candidates[0].content) {
+            const textContent = data.candidates[0].content.parts.map(part => part.text).join('\n');
+            document.getElementById('apiResponse').textContent = textContent;
+        } else {
+            document.getElementById('apiResponse').textContent = 'No content available';
+        }
+    })
+    .catch(error => {
+        document.getElementById('apiResponse').textContent = 'Error: ' + error;
+    });
+}
+
+// 添加按鈕點擊事件
+document.getElementById('sendToAIButton').addEventListener('click', sendToAI);
+
+        showStatus("病例生成完成", true);
+      }, 1000);
+    });
+    
+    // 設定按鈕點擊事件
+    document.getElementById('settingsBtn').addEventListener('click', () => {
+      // 這裡可以添加打開設定面板的邏輯
+      alert('設定功能尚未實現');
+    });
+    
+    // 說明按鈕點擊事件
+    document.getElementById('helpBtn').addEventListener('click', () => {
+      // 這裡可以添加顯示說明文檔的邏輯
+      alert('Made by Shih-Hung Wang via Sonnet3.5 on 2025.03.28');
+    });
+</script>
+
+
 </body>
 </html>
