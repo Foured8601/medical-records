@@ -26,5 +26,9 @@
   {
     "text": "the patient was admitted to our ward for further managment.",
     "field": "i"
+  },
+  {
+    "text": "CKD stage 5",
+    "field": "b"
   }
 ]
