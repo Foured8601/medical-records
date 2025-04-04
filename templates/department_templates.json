@@ -12,10 +12,6 @@
     "field": "j"
   },
   {
-    "text": "ddd",
-    "field": "i"
-  },
-  {
     "text": "[NIHSS Checklist]\n1. Level of Consciousness (LOC)\n2. Best Language\n3. Best Gaze\n4. Facial Palsy\n5. Motor Arm (Left)\n6. Motor Arm (Right)\n7. Motor Leg (Left)\n8. Motor Leg (Right)\n9. Limb Ataxia\n10. Sensory\n11. Best Language\n12. Neglect\n13. Dysarthria\n14. Visual Field Loss",
     "field": "f"
   },
