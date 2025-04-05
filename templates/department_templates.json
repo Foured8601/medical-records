@@ -8,7 +8,7 @@
     "field": "f"
   },
   {
-    "text": "[ABCD2 Score Checklist]\n\nA - Age\n0: Age <60 years\n1: Age ≥60 years\n\nB - Blood Pressure\n0: Systolic BP <140 mmHg and Diastolic BP <90 mmHg\n1: Systolic BP ≥140 mmHg or Diastolic BP ≥90 mmHg\n\nC - Clinical Features\n0: No weakness or speech disturbance\n2: Weakness (hemiparesis)\n1: Speech disturbance without weakness\n\nD - Duration of Symptoms\n0: Symptoms <10 minutes\n1: Symptoms 10-59 minutes\n2: Symptoms ≥60 minutes\n\nD - Diabetes\n0: No diabetes\n1: Diabetes present",
+    "text": "[ABCD2 Score Checklist]\n\nA - Age\n0: Age <60 years old\n1: Age >=60 years old\n\nB - Blood Pressure\n0: Systolic BP <140 mmHg and Diastolic BP <90 mmHg\n1: Systolic BP >=140 mmHg or Diastolic BP >=90 mmHg\n\nC - Clinical Features\n0: No weakness or speech disturbance\n2: Weakness (hemiparesis)\n1: Speech disturbance without weakness\n\nD - Duration of Symptoms\n0: Symptoms <10 minutes\n1: Symptoms 10-59 minutes\n2: Symptoms >=60 minutes\n\nD - Diabetes\n0: No diabetes\n1: Diabetes present",
     "field": "i"
   }
 ]
