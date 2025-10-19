@@ -1,9 +1,5 @@
 [
   {
-    "text": "[NIHSS Checklist]\n1. Level of Consciousness (LOC)\n2. Best Language\n3. Best Gaze\n4. Facial Palsy\n5. Motor Arm (Left)\n6. Motor Arm (Right)\n7. Motor Leg (Left)\n8. Motor Leg (Right)\n9. Limb Ataxia\n10. Sensory\n11. Best Language\n12. Neglect\n13. Dysarthria\n14. Visual Field Loss",
-    "field": "f"
-  },
-  {
     "text": "NE\nE4V5M6\n[Cranial nerve]\nPupil reflex 3+/3+\nEOM full, VF intact, ptosis(-), nystagmus(-)\nFacial sensation: onion skin normal, light touch symmetrical\nFacial palsy(-)\nTongue deviation(-)\nDysarthria(-)\n[Muscle power]\nRUL5, RLL5, LUL5, LLL5\n[DTR]\n++/++\n[Reflex]\nBabinski(R/L): withdraw/withdraw\n[Cerebellum]\nFNF: no dysmetria\nHKS: no dysmetria\n[Sensation]\nLight touch: intact\nPinprick: intact",
     "field": "f"
   },
