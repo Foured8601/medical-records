@@ -2,9 +2,5 @@
   {
     "text": "NE\nE4V5M6\n[Cranial nerve]\nPupil reflex 3+/3+\nEOM full, VF intact, ptosis(-), nystagmus(-)\nFacial sensation: onion skin normal, light touch symmetrical\nFacial palsy(-)\nTongue deviation(-)\nDysarthria(-)\n[Muscle power]\nRUL5, RLL5, LUL5, LLL5\n[DTR]\n++/++\n[Reflex]\nBabinski(R/L): withdraw/withdraw\n[Cerebellum]\nFNF: no dysmetria\nHKS: no dysmetria\n[Sensation]\nLight touch: intact\nPinprick: intact",
     "field": "f"
-  },
-  {
-    "text": "[ABCD2 Score Checklist]\n\nA - Age\n0: Age <60 years old\n1: Age >=60 years old\n\nB - Blood Pressure\n0: Systolic BP <140 mmHg and Diastolic BP <90 mmHg\n1: Systolic BP >=140 mmHg or Diastolic BP >=90 mmHg\n\nC - Clinical Features\n0: No weakness or speech disturbance\n2: Weakness (hemiparesis)\n1: Speech disturbance without weakness\n\nD - Duration of Symptoms\n0: Symptoms <10 minutes\n1: Symptoms 10-59 minutes\n2: Symptoms >=60 minutes\n\nD - Diabetes\n0: No diabetes\n1: Diabetes present",
-    "field": "i"
   }
 ]
