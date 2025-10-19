@@ -38,5 +38,9 @@
   {
     "text": "Aortic dissection, type A",
     "field": "b"
+  },
+  {
+    "text": "00",
+    "field": "b"
   }
 ]
