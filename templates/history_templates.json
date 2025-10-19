@@ -1,9 +1,5 @@
 [
   {
-    "text": "-year-old male",
-    "field": "a"
-  },
-  {
     "text": "-year-old female",
     "field": "a"
   },
@@ -37,10 +33,6 @@
   },
   {
     "text": "Aortic dissection, type A",
-    "field": "b"
-  },
-  {
-    "text": "00",
     "field": "b"
   }
 ]
