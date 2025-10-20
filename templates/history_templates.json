@@ -10,5 +10,9 @@
   {
     "title": "Stroke admission [Diagnostic plan]",
     "content": "[Brain imaging]\n- Brain MRI without contrast for better visualization of infarct territory and size\n\n[Risk factor investigation]\n- Make sure CBC, basic chemistry, EKG, CXR been done\n- Check lipid and sugar profile and HbA1c\n- Arrange extracranial carotid and transcranial color duplex,\n- Arrange echocardiography, Holter monitor (24h) \n\n- Young stroke survey: hypercoagulopathy, vasculitis, genetic causes"
+  },
+  {
+    "title": "Stroke admission [Educational plan]",
+    "content": "Explain the plan after admission.\nInform the patient about the high risk of recurrent stroke during the acute phase and warn them about the red flag signs.\nExplore available community support services and transportation options."
   }
 ]
