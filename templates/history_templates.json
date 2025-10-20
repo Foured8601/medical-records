@@ -6,5 +6,9 @@
   {
     "title": "Stroke [Assessment]",
     "content": "- Brain MRI: pending\n- LDL: pending\n- HbA1c: pending\n- Cardiac echo: pending\n- Holter: pending\n- ECD/TCD: pending"
+  },
+  {
+    "title": "Stroke admission [Diagnostic plan]",
+    "content": "[Brain imaging]\n- Brain MRI without contrast for better visualization of infarct territory and size\n\n[Risk factor investigation]\n- Make sure CBC, basic chemistry, EKG, CXR been done\n- Check lipid and sugar profile and HbA1c\n- Arrange extracranial carotid and transcranial color duplex,\n- Arrange echocardiography, Holter monitor (24h) \n\n- Young stroke survey: hypercoagulopathy, vasculitis, genetic causes"
   }
 ]
