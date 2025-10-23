@@ -2,5 +2,9 @@
   {
     "title": "NE",
     "content": "[Neurological examination]\nE4V5M6, alert\nPupil reflex 3+/3+\nEOM full, VF intact, ptosis(-), nystagmus(-)\nFacial sensation: onion skin normal, light touch symmetrical\nFacial palsy(-)\nTongue deviation(-)\nDysarthria(-)\n[Muscle power]\nRUL5, RLL5, LUL5, LLL5\nDTR: L4 ++/++\nBabinski(R/L): withdraw/withdraw\nFNF: no dysmetria\nHKS: no dysmetria\nLight touch: intact\nPinprick: intact"
+  },
+  {
+    "title": "MG ADL",
+    "content": "[MG-ADL 評估]\n\n1. 說話 (Talking) (0) 正常 (1) 輕微構音不全或說話疲勞 (2) 明顯構音不全或聲音沙啞 (3) 嚴重到難以理解或無法說話\n\n2. 咀嚼 (Chewing) (0) 正常 (1) 咀嚼固體食物（如肉）時輕微無力或疲勞 (2) 明顯咀嚼無力，需改吃軟質食物 (3) 無法咀嚼固體食物\n\n3. 吞嚥 (Swallowing) (0) 正常 (1) 輕微吞嚥困難或偶爾嗆到 (2) 明顯吞嚥困難，需軟質食物 (3) 無法吞嚥（需鼻胃管）\n\n4. 呼吸 (Breathing) (0) 正常 (1) 輕微呼吸急促（通常僅在費力活動時） (2) 明顯呼吸急促，影響日常活動 (3) 嚴重呼吸困難（休息時也喘）或需呼吸輔助\n\n5. 刷牙或梳頭 (Brushing teeth or combing hair) (0) 正常 (1) 輕微手臂無力或疲勞 (2) 明顯手臂無力，執行困難或需要休息 (3) 無法完成動作\n\n6. 從椅子上站起來 (Rising from a chair) (0) normal (1) 輕微困難 (2) 明顯困難，通常需要使用手臂輔助 (3) 沒有他人協助無法自行站起\n\n7. 複視 (Double vision) (0) 無 (1) 輕微（短暫、不頻繁） (2) 明顯（頻繁或持續，影響日常活動） (3) 嚴重（持續且造成生活失能）\n\n8. 眼瞼下垂 (Eyelid droop) (0) 無 (1) 輕微下垂，不影響視線 (2) 明顯下垂，稍微影響視線 (3) 嚴重下垂，已遮蔽視線\n\n總分： _____ / 24"
   }
 ]
