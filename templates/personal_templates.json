@@ -30,5 +30,9 @@
   {
     "title": "TEST",
     "content": "病人主訴 [主訴]，發燒 [天數] 天"
+  },
+  {
+    "title": "1203 tpa",
+    "content": "Based on the patient information provided, here is the structured clinical note following Scenario A: Acute Stroke/TIA.\nA 57 y/o male denied any underlying disease.\nOn 12/04 00:00 (midnight), he experienced sudden onset left-sided weakness and numbness while he was drinking alcohol at home.\nHe denied headache, nausea, vomiting, dysarthria, dysphagia, diplopia, hearing impairment or tinnitus.\nLKNT: 12/04 00:00\nPatient baseline status: independent.\nExamination:\n * Consciousness: E4V5M6, alert.\n * Language: no aphasia.\n * Facial palsy: (+, right).\n * Motor:\n   * upper (R/L: [5/4])\n   * lower (R/L: [5/4])\n * DTR: L4(R/L): 3+/3+; Upper extremities: 2+/2+.\n * Babinski sign: R/L: down/down.\n * Sensory: Left hemi-hypoesthesia.\n * ER NIHSS: 4 (Facial 1, Motor Left Arm 1, Motor Left Leg 1, Sensory 1).\nImaging Findings:\n * Brain CT scan: No acute intracranial hemorrhage seen.\nImpression:\nAcute ischemic stroke (suspected brainstem or crossed signs due to right facial palsy/left hemiparesis).\nSuggestion:\nAcute Stroke Management:\n * IV rtPA thrombolysis was indicated and administered due to arrival within the golden hour.\n * IV hydration N/S.\n * We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n * Arrange ICU admission.\nNext Step: Would you like me to adjust the \"Right facial palsy\" finding? (Clinically, a right facial palsy with left body weakness suggests a brainstem lesion, whereas a standard MCA stroke would present with left facial palsy. I have drafted it exactly as you described, but I can correct it to \"left\" if it was a dictation error.)"
   }
 ]
