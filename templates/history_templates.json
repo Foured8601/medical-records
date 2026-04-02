@@ -46,5 +46,9 @@
   {
     "title": "Mental Status Examination (MSE)",
     "content": "Mental Status Examination:\nAPPEARANCE: kempt\nATTITUDE: cooperative\nCONSCIOUSNESS: clear\nATTENTION: fair\nAFFECT: appropriate\nMOOD: anxious\nSPEECH: relevant\nTHOUGHT:\nnegative thought\nsuicidal idea\nPERCEPTION:auditory hallucinations\nJOMAC: ok\nINSIGHT: partial\nsleep: delayed sleep onset\nappetite: fair"
+  },
+  {
+    "title": "Tirofiban (Aggrastat)",
+    "content": "Tirofiban (自費$9000) 1 vial + 200mL N/S = 50ug/mL\nRun 0.48mL/kg/Hr x 30分鐘 + 0.12mL/kg/Hr x 71.5 hr\n(= 0.4ug/kg/min x 30分鐘 + 0.1ug/kg/min x 71.5 hr)\n\nHold Aspirin\nAdmission ICU"
   }
 ]
