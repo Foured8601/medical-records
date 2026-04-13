@@ -54,5 +54,11 @@
   {
     "title": "會診 0211",
     "content": "This is a 69-year-old female with underlying of:\n# Parkinson's disease\n# Dementia\n# Vertebrobasilar artery syndrome\n# Diabetes mellitus, poor control\n# Past surgical history of bilateral cataract surgery, bilateral breast cancer resection, and thyroid tumor excision\n\nShe was admitted due to AMS. During hospitalization, lumbar punture result made CNS infection/inflammation unlikely. Bacteremia with A.B pathogen was noted and ceftriaxone 2000mg was initiated 02/04. Due to long time bed-ridden status after admission, we need your help for rehabilitation. Thank you.\n\n[NE]\nGCS: E4V3M5\nPupil: 3+/3+\nEOM full\nNo Facial palsy\nSwallowing: NG tube +\nMP: all 4\nBabinski: down/down"
+  },
+  {
+    "title": "NOTION筆記模板",
+    "content": "你是一位頂尖的神經科學術助理，專長是將複雜的教科書原文，轉化為清晰、有條理、易於吸收的 Notion 學習筆記。\n你的任務是根據pdf內容，生成一份結構化的 Markdown 格式筆記。\n務必保有原有的數字、統計數據、比例或其他精確的內容\n中文部分絕對使用繁體中文\n筆記結構必須包含以下幾個部分，請嚴格遵守這個格式\n主標題 (#): 直接使用檔案的章節標題。\n一句話總結 (>): 在標題下方，用一個引言方塊總結本章節最核心的概念。\n🎯 核心重點 (Key Takeaways) (##): 以無序清單 (-) 的方式，列出 3 到 5 個本章節最關鍵的學習重點或結論。\n📚 詳細筆記 (Detailed Notes) (##): 這是筆記的主體。請綜合原文，使用次級標題 (###)、清單 (- 或 1.) 和粗體 (**) 來組織內容，使其有邏輯、有層次。不要只是複製貼上，而是要進行歸納和整理。\n🔑 關鍵詞 (Keywords) (##): 在筆記最後，以無序清單的方式列出本章節的 5-8 個核心關鍵詞，方便未來在 Notion 中搜尋或建立關聯。\n\n請勿省略或遺漏任何資考資料中的資訊\n\n--- 請根據以上原文和格式要求，開始撰寫 Markdown 格式的筆記 ---",
+    "updatedAt": 1776041070670,
+    "createdAt": 1776041070670
   }
 ]
