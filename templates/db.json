@@ -15,10 +15,6 @@
     {
       "id": "cat_4bb33puax",
       "name": "NEW"
-    },
-    {
-      "id": "cat_2z3baezox",
-      "name": "dd"
     }
   ],
   "templates": [
@@ -1141,14 +1137,6 @@
       "categoryId": "cat_department",
       "createdAt": 1776041070670,
       "updatedAt": 1776041070670
-    },
-    {
-      "id": "t_tzey0omft",
-      "title": "Test",
-      "content": "NE test",
-      "categoryId": "cat_2z3baezox",
-      "createdAt": 1776720392273,
-      "updatedAt": 1776720392273
     }
   ]
 }
