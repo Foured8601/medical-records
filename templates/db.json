@@ -1,16 +1,16 @@
 {
   "categories": [
     {
+      "id": "cat_6lploth73",
+      "name": "急診/病房會診"
+    },
+    {
       "id": "cat_history",
       "name": "病例模板"
     },
     {
       "id": "cat_personal",
       "name": "會診模板"
-    },
-    {
-      "id": "cat_6lploth73",
-      "name": "急診/病房會診"
     },
     {
       "id": "cat_department",
