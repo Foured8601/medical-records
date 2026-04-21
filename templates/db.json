@@ -11,6 +11,10 @@
     {
       "id": "cat_department",
       "name": "檢查模板"
+    },
+    {
+      "id": "cat_6lploth73",
+      "name": "急診/病房會診"
     }
   ],
   "templates": [
