@@ -1149,6 +1149,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1776794105647,
       "updatedAt": 1776794105647
+    },
+    {
+      "id": "t_bc05hj7mv",
+      "title": "15514286",
+      "content": "A 33 y/o male has past history of\n# Hypertension (under Norvasc control)\nThe patient is an office worker who denies smoking or alcohol consumption. He presented to the ER on 4/22, reporting a sudden onset of left-sided numbness since 4/21 at 13:00. The numbness primarily involves the lateral aspect of the left upper limb and the lateral aspect of the left thigh. Associated symptoms included mild left hand weakness. The symptoms have been persistent without significant worsening. He denied dizziness, recent trauma or falling, nausea/vomiting, dysarthria, dysphagia, diplopia, hearing impairment, tinnitus, or facial palsy.\nLKNT: 2026/04/21 13:00\nPatient was at his baseline status. GCS 15, pre-Stroke mRS: 0.\n[Focused Neurological Examination]\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: mild gaze-evoked nystagmus noted, pupil (R/L: 3mm+/3mm+)\nFacial palsy: (-)\nDysarthria: (-)\nDysphagia: (-)\nMotor:\n * upper proximal (R/L: [5/5-]), upper distal (R/L: [5/5-])\n * lower proximal (R/L: [5/5]), lower distal (R/L: [5/5])\n   DTR: L4(R/L): ++/++, Forearm(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: Left forearm and left lateral thigh hyperesthesia (Right 10 vs Left 12-13 via pinprick)\n   FNF: Left side dysmetria (+)\n   Tandem gait: Steady\n   Romberg test: Negative\nER NIHSS: 2 (Left hand dysmetria, Left limb sensory loss) = 2\nImaging Findings:\nBrain CT scan: [To be performed/Pending]\nImpression:\n# Acute right subcortical infarction, minor stroke\nSuggestion:\n# Acute Stroke Management:\n * Aspirin + Clopidogrel (DAPT)\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Suggest Admission (#19587)\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1776859979233,
+      "updatedAt": 1776859979233
     }
   ]
 }
