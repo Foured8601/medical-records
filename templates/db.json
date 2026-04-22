@@ -1149,6 +1149,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1776859979233,
       "updatedAt": 1776859979233
+    },
+    {
+      "id": "t_tkx055nxu",
+      "title": "02989480",
+      "content": "A 41 y/o female has past history of\n# Anemia\nThe patient presented with sudden onset of left-sided facial, hand, and leg numbness while using her phone 1 hour ago. The numbness involves the left face (including the oral cavity), left arm (upper and lower), and left leg (thigh, lower leg, and ankle). No sensory abnormality was noted over the chest, back, or waist. She denied dizziness, headache, nausea/vomiting, dysarthria, dysphagia, diplopia, hearing impairment, or recent head trauma. She denied any weakness or clumsiness (clumsiness) in her extremities, though she felt a \"tightness\" in her left limbs.\nLKNT: 1 hour ago\nPatient baseline status: GCS 15, pre-Stroke mRS: 0\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 2mm+/3mm+)\nFacial palsy: (-)\nDysarthria: (-)\nDysphagia: (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: Hypoesthesia over left upper and lower limbs (Right: 10, Left: 7-8)\n   FNF: no dysmetria\nER NIHSS: 1 (Sensory) = 1\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage or definite acute infarction seen.\nImpression:\n# Minor stroke, r/o acute right subcortical infarction\nSuggestion:\n# Acute Stroke Management:\n * Aspirin 1# STAT + 1# QD\n * Clopidogrel 4# STAT + 1# QD\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Admission was suggested, but the patient requested AAD for OPD follow-up.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1776863791787,
+      "updatedAt": 1776863791787
     }
   ]
 }
