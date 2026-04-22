@@ -1157,6 +1157,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1776863791787,
       "updatedAt": 1776863791787
+    },
+    {
+      "id": "t_5d0x74a1g",
+      "title": "01890389",
+      "content": "A 46 y/o male has past history of\n# Hypertension (regular follow-up at Cardiology)\nThe patient woke up at approximately 06:00-07:00 AM on 04/22 and noticed sudden onset of left-sided weakness and numbness involving his left face, hand, foot, chest, and abdomen. He also complained of mild swallowing difficulty. He denied dizziness, slurred speech, facial palsy, blurred vision, hearing impairment, tinnitus, nausea, vomiting, headache, recent head trauma, or fever. He drove to the ER by himself and noted no gait instability.\nLKNT: 2026/04/21 (before sleep)\nBaseline status: GCS 15, pre-Stroke mRS: 0\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 3mm+/3mm+), light reflex (+/+)\nNo nystagmus\nFacial palsy: negative\nDysarthria: negative\nDysphagia: mild difficulty\nTongue deviation: mild deviation to the left\nMotor:\n * upper proximal (R/L: 5/4+), upper distal (R/L: 5/4+)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   Pronator drift: left (+)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: Hypesthesia over left face, hand, and trunk (R:10, L:7)\n   Extinction: negative\n   FNF: no dysmetria\n   Gait: steady, no ataxia\nER NIHSS: 2 (Motor Arm: 1, Sensory: 1)\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage. Subtle hypodensity noted at the right thalamus, suspect acute infarction.\nImpression:\n# Acute right thalamic infarction\nSuggestion:\n# Acute Stroke Management:\n * Aspirin 100mg 1# STAT + 1# QD PO\n * Clopidogrel 75mg 4# STAT + 1# QD PO\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Suggest admission for further evaluation and stroke workup.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1776869135714,
+      "updatedAt": 1776869135714
     }
   ]
 }
