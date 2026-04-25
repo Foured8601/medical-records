@@ -1197,6 +1197,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1777054079393,
       "updatedAt": 1777054079393
+    },
+    {
+      "id": "t_m7aa2ztjg",
+      "title": "16951158",
+      "content": "A 55 y/o male has past history of\n# Hypertension (under Norvasc)\n# Smoking (1 ppd for 30 years)\nOn 11/21 morning, he had sudden onset left-sided weakness and slurred speech noted at 07:00 AM after waking up. Initial weakness was severe (unable to get out of bed) and lasted for about 1 hour before spontaneous resolution, followed by intermittent recurrence. He denied dizziness, nausea, vomiting, headache, head trauma, or loss of consciousness.\nLKNT: 11/20 22:30\nPatient baseline status: GCS 15, pre-Stroke mRS: 0\n[Focused Neurological Examination]\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 3mm+/3mm+)\nNystagmus: negative\nFacial palsy: negative\nDysarthria: mild\nDysphagia: negative\nMotor:\n * upper proximal (R/L: 5/4+), upper distal (R/L: 5/4+)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   Pronator drift: Left (+)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: intact\n   FNF: no dysmetria\nER NIHSS: 5b (1) = 1\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage or definite acute infarction seen.\nImpression:\n# Acute right subcortical infarction\n# Minor stroke\nSuggestion:\n# Acute Stroke Management:\n * Aspirin 1# STAT + 1# QD PO\n * Clopidogrel 4# STAT + 1# QD PO\n * IV hydration N/S 80 mL/hr\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Admission (#19587)\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1777085103735,
+      "updatedAt": 1777085103735
     }
   ]
 }
