@@ -1205,6 +1205,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1777085103735,
       "updatedAt": 1777085103735
+    },
+    {
+      "id": "t_vypslmm6v",
+      "title": "16389995",
+      "content": "A 41 y/o female has past history of\n# Hypertension (poor control, no medication)\n# Diabetes mellitus (poor control, no medication)\nShe developed sudden onset severe headache, multiple vomiting episodes, and unsteady gait at 02:00 today. At 08:00, she was found to have altered mental status, agitation, and incoherent speech. High fever was also noted. She denied head trauma, recent seizure, or known infection sources prior to the onset of symptoms.\nLKNT: 02:00\nPatient baseline status: GCS E4V5M6, pre-Stroke mRS: 0\n[Focused Neurological Examination]\nConsciousness: E3V2M4, agitated and confused\nLanguage: Incoherent speech, unable to cooperate\nEOM: Limited cooperation, pupil (R/L: 3mm+/3mm+)\nFacial palsy: (-)\nDysarthria: (+)\nDysphagia: Limited cooperation\nMotor:\n * upper (R/L: 4/4), lower (R/L: 4/4) (Limited by cooperation, moves to pain)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: mute\n   Sensory: Limited cooperation\n   FNF: Limited cooperation due to agitation\nLab data:\nCSF analysis: WBC 3, Protein: elevated.\nHigh fever (+) noted at ER.\nImpression:\n# Altered mental status, r/o Encephalitis (infectious vs autoimmune/NMDA)\n# Fever\n# Poorly controlled DM and HTN\nSuggestion:\n# ICU admission for intensive monitoring and agitation control.\n# Arrange brain MRI for further evaluation.\n# Consider pulse therapy and empirical antimicrobial/antiviral treatment.\n# Sedation for agitation; however, the family refused intubation despite the risk of deterioration and the need for airway protection.\n# We have explained the clinical course and the high risk of deterioration to the family and the patient, please keep f/u clinical symptoms and signs.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1777109779317,
+      "updatedAt": 1777109779317
     }
   ]
 }
