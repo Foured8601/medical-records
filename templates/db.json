@@ -1213,6 +1213,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1777109779317,
       "updatedAt": 1777109779317
+    },
+    {
+      "id": "t_n17lo39pp",
+      "title": "04400468",
+      "content": "A female patient has past history of\n# Dementia (CDR 3)\n# Under neurological OPD follow-up\nOn 2 days ago afternoon, right-sided weakness and facial asymmetry were noted by her family. The symptoms persisted without recovery. She denied recent head trauma, fever, nausea, vomiting, dizziness, headache, or seizure episodes. Associated symptoms included recent easy choking and coughing during feeding.\nLKNT: 2 days ago\nPatient baseline status: GCS E4V2M5, pre-Stroke mRS: 4. Bedbound, requires full assistance for ADLs and walking. Incoherent speech, unable to follow commands, but able to swallow.\nFocused Neurological Examination\nConsciousness: E3V2M4, drowsy\nLanguage: global aphasia\nEOM: unable to cooperate, no obvious gaze deviation or roving eyes noted\nFacial palsy: negative (no obvious asymmetry noted during ER examination; eyelids closed tightly)\nDysarthria: unable to evaluate\nDysphagia: positive (history of choking)\nMotor:\n * upper (R/L: 2/4)\n * lower (R/L: 2/4)\n   DTR: RU/LU: ++/+, RL/LL: ++/+\n   Babinski sign: R/L: up/down\n   Sensory: unable to cooperate\n   FNF: unable to cooperate\nER NIHSS: 14\nImaging Findings:\nBrain CT scan: Global brain atrophy. Hypodensity over the left thalamus. No acute intracranial hemorrhage.\nImpression:\n# Acute left subcortical infarction (thalamus)\nSuggestion:\n# Acute Stroke Management:\n * Aspirin 3# STAT + 1# QD\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Suggest admission for further evaluation and management.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1777125024208,
+      "updatedAt": 1777125024208
     }
   ]
 }
