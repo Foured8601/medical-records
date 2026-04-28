@@ -1237,6 +1237,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1777378300445,
       "updatedAt": 1777378917978
+    },
+    {
+      "id": "t_km7wgj5sb",
+      "title": "09153615",
+      "content": "A male has past history of\n# Diabetes Mellitus (regular follow-up)\n# Smoking habit (1 ppd)\nThis male patient presented with sudden onset of numbness over the left upper and lower limbs while playing chess around 18:00 tonight. Associated symptoms included dizziness. He denied weakness, slurred speech, dysphagia, loss of consciousness, or recent head trauma.\nLKNT: 2026/04/28 18:00\nPatient baseline status: GCS 15, pre-Stroke mRS: 0\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 3mm+/3mm+)\nFacial palsy: (-)\nDysarthria: (-)\nDysphagia: (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): +/+\n   Babinski sign: R/L: down/up\n   Sensory: Left hemi-hypoesthesia (Pinprick L/R: 7/10)\n   FNF: no dysmetria\nER NIHSS: 1 (Sensory) = 1\nImaging Findings:\nBrain CT scan: Pending (No acute ICH noted per clinical suspicion)\nImpression:\n# Minor stroke, suspected right subcortical infarction\nSuggestion:\n# Acute Stroke Management:\n * DAPT: Aspirin 1# STAT + 1# QD PO; Clopidogrel 4# STAT + 1# QD PO\n * IV hydration with N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Suggest admission for further evaluation and management.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1777385994040,
+      "updatedAt": 1777385994040
     }
   ]
 }
