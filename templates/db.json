@@ -1277,6 +1277,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1777617446090,
       "updatedAt": 1777617446090
+    },
+    {
+      "id": "t_z270l53vg",
+      "title": "00546320",
+      "content": "An 89 y/o female has past history of\n# Hypertension, CKD, Arrhythmia, and s/p appendectomy\nThe patient was found with decreased consciousness and left-sided weakness at 08:00 today (05/01). She was last known well at 23:00 on 04/30. She denied nausea, vomiting, eye deviation, or post-ictal confusion at home. She also denied fever or recent head trauma.\nLKNT: 2026/04/30 23:00\nPatient baseline status: GCS 456, pre-Stroke mRS: 2\nFocused Neurological Examination\nConsciousness: E3V2M5, drowsy\nLanguage: Unable to assess due to consciousness level\nEOM: Right gaze deviation, no nystagmus, no ptosis\nFacial palsy: (-)\nDysarthria: Unable to assess\nDysphagia: N/A\nMotor:\n * upper proximal (R/L: 4/2), upper distal (R/L: 4/2)\n * lower proximal (R/L: 4/2), lower distal (R/L: 4/2)\n   DTR: L4(R/L): +++/+++\n   Babinski sign: R/L: down/up\n   Sensory: intact\n   FNF: Unable to assess\nER NIHSS: 20\nImaging Findings:\nBrain MRI: Acute-on-chronic right ICA occlusion/stenosis\nMismatch volume: 162 ml\nTmax > 10s: Infinity\nImpression:\n# Acute ischemic stroke with right ICA occlusion\nSuggestion:\n# Acute Stroke Management:\n * EVT not recommended currently based on clinical evaluation and perfusion mismatch.\n * IV hydration N/S.\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# The family requested AAD for transfer to NTUH.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1777636272459,
+      "updatedAt": 1777636272459
     }
   ]
 }
