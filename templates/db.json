@@ -1253,6 +1253,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1777446473544,
       "updatedAt": 1777446473544
+    },
+    {
+      "id": "t_7i9j3ywo1",
+      "title": "00760597",
+      "content": "A 63 y/o Female has past history of\n# Hypertension (HTN)\n# HBV\nPatient presented with left small finger weakness associated with numbness over the dorsal aspect of the arm, forearm, and hand since 04/29 evening. The symptoms occurred during rest without a history of prolonged compression. She denied dizziness, nausea, vomiting, dysarthria, dysphagia, facial palsy, diplopia, hearing impairment, or tinnitus. She also denied fever, recent URI symptoms, vaccination history, or weakness/numbness in other extremities or the trunk.\nLKNT: 2026/04/29 evening\nPatient baseline status: Independent, GCS E4V5M6, pre-Stroke mRS: 0\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 3mm+/3mm+)\nFacial palsy: (-)\nDysarthria: (-)\nDysphagia: (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n * Left 5th finger (Abduction/Adduction/Extension): (R/L: 5/4)\n * Pronator drift: (-)\n   DTR: L4(R/L): ++/++, Biceps(R/L): +/+\n   Babinski sign: R/L: down/down\n   Sensory: Mild hypoesthesia over left dorsal arm to hand (L/R: 9/10)\n   FNF: no dysmetria\nER NIHSS: 0\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage (ICH).\nImpression:\n# Suspected left cervical radiculopathy\n# Acute ischemic stroke is less likely\nSuggestion:\n# Suggest Neuro-surgery (NS) OPD follow-up for cervical spine evaluation.\n# Blood pressure control (Initial BP: 211/83 mmHg).\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1777606558108,
+      "updatedAt": 1777606558108
     }
   ]
 }
