@@ -1261,6 +1261,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1777606558108,
       "updatedAt": 1777607785670
+    },
+    {
+      "id": "t_96wyu9olk",
+      "title": "17125118",
+      "content": "A 49 y/o male has past history of\n# ESRD under regular HD\n# Hypertension\n# Diabetes Mellitus\n# Cardiac disease s/p permanent pacemaker implantation\nThis patient suffered from sudden onset left-sided weakness (lower limb > upper limb) and numbness yesterday after hemodialysis. He denied slurred speech, dysphagia, blurred vision, dizziness, nausea, vomiting, or loss of consciousness. At ER, the symptoms had fully resolved, and he was able to walk independently without gait deviation.\nLKNT: 2026/04/30\nIndependent baseline, pre-Stroke mRS: 0\nFocused Neurological Examination:\n * Consciousness: E4V5M6, alert\n * Language: no aphasia\n * EOM: full, pupil (R/L: 3mm+/3mm+)\n * Facial palsy: (-)\n * Dysarthria: (-)\n * Dysphagia: (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: intact\n   FNF: no dysmetria\nER NIHSS: 0\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage or definite acute infarction seen.\nImpression:\n# TIA (Transient Ischemic Attack)\n# Suspected post-dialysis fluid/electrolyte imbalance related\nSuggestion:\n# Acute Stroke Management:\n * Aspirin (100mg) 1# STAT then 1# QD\n * Clopidogrel (75mg) 4# STAT then 1# QD (DAPT)\n * IV hydration with N/S adjusted for ESRD status\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Arrange Neurology OPD follow-up on Monday.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1777616343418,
+      "updatedAt": 1777616343418
     }
   ]
 }
