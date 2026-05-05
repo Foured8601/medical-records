@@ -1313,6 +1313,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1777648415664,
       "updatedAt": 1777648415664
+    },
+    {
+      "id": "t_7wa0v25ta",
+      "title": "下肢NCV amptitude異常 + 正常S1 EMG",
+      "content": "Findings:\n1. Reduced amplitude of right peroneal nerve motor response with preserved conduction velocity.\n2. Normal sensory NCV at bilateral sural nerves.\n3. Normal F waves at bilateral peroneal and tibial nerves.\n4. Normal H reflex at bilateral tibial nerves.\n\nNeedle EMG of the left S1 paraspinal muscle showed no abnormal spontaneous activity, normal MUAP morphology, and full recruitment.\n\nConclusion:\nRight peroneal nerve axonal injury or partial conduction block is suggestive.\nClinical correlation is recommended.\n\nS.H. Wang MD / T.H. Ko MD",
+      "categoryId": "cat_g14pr6kw0",
+      "createdAt": 1777970171258,
+      "updatedAt": 1777970171258
     }
   ]
 }
