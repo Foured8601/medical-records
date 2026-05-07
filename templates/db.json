@@ -1337,6 +1337,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1778141831005,
       "updatedAt": 1778141831005
+    },
+    {
+      "id": "t_attpbtwb3",
+      "title": "18143917",
+      "content": "A 32 y/o male has past history of\n# No known chronic medical history\n# Non-smoker, no alcohol or betel nut consumption\nSudden onset of left arm, left chest, and left face numbness at 14:00 today while in a taxi. Symptoms were accompanied by left hand weakness and slurred speech, which resolved completely within 30 seconds after drinking water. Similar symptoms occurred 5 years ago, both instances associated with suspected dehydration and a recent history of diarrhea 2 days ago. He denied dizziness, headache, nausea, vomiting, blurred vision, hearing loss, or tinnitus.\nLKNT: 14:00, 2026/05/07\nIndependent baseline, GCS 15, pre-Stroke mRS: 0\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 3mm+/3mm+)\nFacial palsy status: (-)\nDysarthria status: (-)\nDysphagia status: (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): +++/+++, upper (R/L): +++/+++\n   Babinski sign: R/L: down/down\n   Sensory: intact upon ER arrival\n   FNF: no dysmetria\nER NIHSS: 0 (Total)\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage or remarkable lesion seen.\nLab data: K: 3.1 mmol/L.\nImpression:\n# TIA (Transient Ischemic Attack), ABCD2 score = 2\n# Hypokalemia, suspected diarrhea-related\nSuggestion:\n# Acute Stroke Management:\n * Aspirin 1# STAT + 1# QD\n * IV hydration with N/S and potassium correction\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Follow up at Neurology OPD.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1778165932686,
+      "updatedAt": 1778165932686
     }
   ]
 }
