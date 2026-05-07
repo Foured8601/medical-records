@@ -1329,6 +1329,14 @@
       "categoryId": "cat_department",
       "createdAt": 1778141628595,
       "updatedAt": 1778141628595
+    },
+    {
+      "id": "t_hs8ttah8h",
+      "title": "IDEA",
+      "content": "請幫我deep research重症肌無力跟AI整合的相關研究，原本是想要以AI作為meta-anlysis的tool但是似乎只是優化過去的研究方式，本質還是meta-anlysis。因此希望能加入AI整個疾病中的參與或介入或幫助或追蹤等。總之任何面向都可以\n\n或者類似的疾病有的相關研究可以/適合套用到MG的情況",
+      "categoryId": "cat_pk3l16qq1",
+      "createdAt": 1778141831005,
+      "updatedAt": 1778141831005
     }
   ]
 }
