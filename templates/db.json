@@ -1321,6 +1321,14 @@
       "categoryId": "cat_g14pr6kw0",
       "createdAt": 1777970171258,
       "updatedAt": 1777970171258
+    },
+    {
+      "id": "t_yhw3lv9gt",
+      "title": "重心動搖儀",
+      "content": "[Clinical Test of Sensory Integration of Balance]\n\nFilm surface, Eye open, sway index= 0.61 ( normal limit= 0.5)\nFilm surface, Eye closed, sway index= 0.89 ( normal limit= 1.0)\nFoam surface, Eye open, sway index= 0.98 ( normal limit= 0.75)\nFoam surface, Eye closed, sway index= 1.81 ( normal limit= 2.25)\n\n[Interpretation]\nThe result of posturography revealed impairment of visual-vestibular integration of balance during examination\n\nFall Risk compared to the same age group: fair\n\n[Conclusion]\nCentral vestibular dysfunction or visual dependency/conflict phenomenon was suggestive.\n\n\nS.H Wang MD/ T.H. KO M.D.",
+      "categoryId": "cat_department",
+      "createdAt": 1778141628595,
+      "updatedAt": 1778141628595
     }
   ]
 }
