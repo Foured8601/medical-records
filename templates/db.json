@@ -1345,6 +1345,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1778165932686,
       "updatedAt": 1778165932686
+    },
+    {
+      "id": "t_okw7b3kkv",
+      "title": "18143984",
+      "content": "A 58 y/o male has past history of\n# No known underlying disease\nThe patient was admitted to another hospital 3 days ago for acute heart failure. On 2026/05/07 at 19:00, acute onset of right-sided weakness was noted. Brain CT showed no IVH but suggested an old infarct at the right basal ganglia. He received IV rt-PA within 4.5 hours of onset. Post-TPA NIHSS was 4. Due to family request for transfer, he arrived at our ER at 00:00. He denied dizziness, nausea, vomiting, diplopia, nystagmus, or dysphagia.\nLKNT: 2026/05/07 19:00\nBaseline status: Independent, pre-Stroke mRS: 0\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: No aphasia\nEOM: Full, right gaze deviation noted, pupil (R/L: 2mm+/2mm+)\nFacial palsy: Right central facial palsy\nDysarthria: (+)\nDysphagia: (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal/grip (R/L: 4/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n * Pronator drift: (-)\n   DTR: L4(R/L): 0/1+\n   Babinski sign: R/L: down/down\n   Sensory: Intact\n   FNF: No dysmetria\nER NIHSS: 3\nImaging Findings:\nBrain CT scan (outside hospital): No acute intracranial hemorrhage; suspected old right basal ganglia infarction.\nCXR: Cardiomegaly.\nBedside Echo: Poor cardiac contractility and motion, significant cardiomegaly.\nLab data:\nElevated Troponin-I, suspected unstable angina.\nImpression:\n# Acute ischemic stroke, post IV rt-PA management\n# Heart failure with reduced ejection fraction (HFrEF)\n# Suspected unstable angina\nSuggestion:\n# Acute Stroke Management:\n * Admit to ICU for at least 24 hours post-TPA observation.\n * IV hydration N/S.\n * Monitor for neurological deterioration or hemorrhagic transformation.\n * Cardiac evaluation for HFrEF and suspected unstable angina.\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1778175209085,
+      "updatedAt": 1778175209085
     }
   ]
 }
