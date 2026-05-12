@@ -1361,6 +1361,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1778589403760,
       "updatedAt": 1778589403760
+    },
+    {
+      "id": "t_xmdz4y5n9",
+      "title": "04213718",
+      "content": "A 72 y/o female has past history of\n# Diabetes mellitus under medical control\nThis patient presented with progressive bilateral lower limb weakness for 2 weeks, which worsened from distal to proximal. She has a 1-year history of severe back and waist pain resulting in an unsteady gait. Recent symptoms include progressive numbness ascending to the chest level, urinary incontinence, and decreased perianal sensation during defecation. She denied nausea, vomiting, hiccups, dysphagia, dysarthria, blurred vision, hearing impairment, or headache. There was no history of fever, vaccination, or gastrointestinal symptoms in the past 3 months.\nLKNT: 2 weeks ago\nPatient baseline status: Ambulatory with assistance due to chronic pain\nFocused Neurological Examination\nConsciousness: E4V5M6, alert and oriented\nLanguage: no aphasia\nEOM: full, no visual field defect\nMeningeal sign: Kernig sign (-), Brudzinski sign (-)\nMotor:\n * upper (R/L: 4+/4+)\n * lower proximal (R/L: 2/2), lower distal (R/L: 2/2)\n   DTR:\n * upper (R/L: +/+)\n * lower L4 (R/L: +++/+++), ankle reflex (R/L: ++/++)\n   Babinski sign: R/L: up/up\n   Sensory: clear sensory level at T3-T4; pinprick sensation decreased (5-6/10) below level; vibration sense severely impaired in lower limbs\n   FNF: no dysmetria in upper limbs\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage or focal lesion; global atrophy noted\nImpression:\n# Suspected Acute Transverse Myelitis (ATM)\n# r/o Guillain-Barré Syndrome (GBS)\nSuggestion:\n# Arrange emergent Spine MRI (T-spine to S-spine) with and without contrast\n# Arrange Lumbar Puncture (LP) for CSF analysis\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1778592360396,
+      "updatedAt": 1778592360396
     }
   ]
 }
