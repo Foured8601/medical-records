@@ -1385,6 +1385,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1778628892745,
       "updatedAt": 1778628892745
+    },
+    {
+      "id": "t_eaw3vhe8d",
+      "title": "新想法",
+      "content": "希望藥物的部分可以快速連結到仿單醫院內的藥物介紹，或許可以整合之前有提到的健保適應症查詢系統或者是連結到up to dat診等其他的藥物資訊系統整合",
+      "categoryId": "cat_pk3l16qq1",
+      "createdAt": 1778924568163,
+      "updatedAt": 1778924568163
     }
   ]
 }
