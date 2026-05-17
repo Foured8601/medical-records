@@ -1401,6 +1401,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1778981111621,
       "updatedAt": 1778981111621
+    },
+    {
+      "id": "t_84mtcrg46",
+      "title": "14869840",
+      "content": "Category: Seizure\nThis 49 y/o male has past history of\n# Multiple old cerebral vascular accidents (CVA)\n# Epilepsy under Keppra 500mg BID\nThe patient was found lying on the roadside by a bystander due to a suspected seizure episode and was brought to our ER. Upon arrival, altered mental status with impaired consciousness was noted. Endotracheal intubation was discussed with the family due to suspected sepsis, but they are currently hesitating. He denied preceding trauma, fever, chills, dizziness, weakness, nausea, vomiting, dysarthria, dysphagia, diplopia, hearing impairment, or tinnitus prior to the event.\nConsciousness: E1V1M4\nLanguage: Un-evaluable due to altered mental status\nEOM: Roving eye movements present, pupil (R/L: 2mm+/2mm+) with light reflex\nFacial palsy: Un-evaluable\nMotor: upper (R/L: 3/3), lower (R/L: 3/3)\nDTR: L4(R/L): +++/+++\nBabinski sign: R/L: up/up\nLab data: Hyperammonemia, metabolic acidosis with elevated lactate. Chest X-ray showed bilateral prominent lung infiltration.\nBrain CT scan: Old multiple CVA lesions, no acute intracranial hemorrhage seen.\nImpression:\n# Provoked seizure, secondary to sepsis\n# Sepsis, suspect pneumonia\n# Altered mental status\n# Hyperammonemia\n# Metabolic acidosis\nSuggestion:\n 1. Adjust anti-epileptic medication: Titrate up Keppra to 1000mg Q12H IV drip temporarily for seizure control.\n 2. Recommend admission to the Internal Medicine department for infection control, sepsis management, and metabolic stabilization.\n 3. We have explained the clinical course to the family and the patient, and reminded them about the red flag sign. The family is currently hesitating regarding endotracheal intubation.\n 4. Arrange Neurology follow-up for further anti-epileptic drug adjustment after infection control is completed.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1779013402391,
+      "updatedAt": 1779013402391
     }
   ]
 }
