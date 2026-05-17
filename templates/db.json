@@ -1393,6 +1393,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1778924568163,
       "updatedAt": 1778924568163
+    },
+    {
+      "id": "t_2otjw51z2",
+      "title": "06067076",
+      "content": "An unknown age male has past history of\n# Old CVA\n# Left occipital infarction (s/p brain MRI follow-up in Feb 2026)\nThe patient was found to have acute right-sided weakness by family when he woke up at 06:00. He also complained of dizziness. He denied loss of consciousness, nausea, vomiting, or head trauma.\nLKNT: 03:00 (patient woke up to use the toilet independently)\nPatient was able to walk independently at home. GCS E4V5M6, pre-Stroke mRS: 2\nFocused Neurological Examination\nConsciousness: E4V5M6, drowsy\nLanguage: no aphasia\nEOM: full, no gaze deviation, pupil (R/L: 2mm+/3mm+, light reflex +/+)\nFacial palsy (-)\nDysarthria (+)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 4/4+), upper distal (R/L: 4/4+)\n * lower proximal (R/L: 4/4+), lower distal (R/L: 4/4+)\n   DTR: L4(R/L): +/+\n   Babinski sign: R/L: equivocal/down\n   Sensory: intact\n   FNF: no dysmetria\nER NIHSS: Total = 3\nImaging Findings:\nBrain CT scan: Not mentioned in ER narrative (Prior brain MRI tracking in Feb 2026 showed left occipital infarction)\nImpression:\n# Recurrent ischemic stroke, suspected left subcortical infarction\nSuggestion:\n# Acute Stroke Management:\n * Aspirin + Clopidogrel 3# STAT loading, followed by DAPT with Aspirin 1# QD + Clopidogrel 1# QD (due to poor compliance with baseline Aspirin)\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Suggest admission for further evaluation and management.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1778981111621,
+      "updatedAt": 1778981111621
     }
   ]
 }
