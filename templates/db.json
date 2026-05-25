@@ -1465,6 +1465,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1779704017627,
       "updatedAt": 1779704017627
+    },
+    {
+      "id": "t_z7esd0uqf",
+      "title": "00586649",
+      "content": "A 43 y/o male has past history of\n# Kidney stones\n# Smoking (2 PPD for >20 years)\n# Family history of Moyamoya disease (brother)\nHe was last known to be well at 23:00 on May 24 before going to sleep. He woke up at 12:00 on May 25 with self-perceived weakness but still went to work. At work, his boss noticed obvious left-sided weakness, prompting his ER visit. He denied headache, nausea, vomiting, loss of consciousness, blurred vision, head trauma, and falling down. He also denied any sensory deficit.\nLKNT: 2026-05-24 23:00\nGCS E4V5M6, pre-Stroke mRS: 0\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 2mm+/2mm+)\nFacial palsy (left)\nDysarthria (+)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 5/4), upper distal (R/L: 5/4)\n * lower proximal (R/L: 5/4), lower distal (R/L: 5/4)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/up\n   Sensory: intact\n   FNF: no dysmetria\nER NIHSS: 4\nImaging Findings:\nBrain CT scan: Highly circular hypodense lesion at right basal ganglia.\nBrain MRI+C: DWI hyperintense at right basal ganglia and right internal capsule with a string-of-pearls watershed distribution. MRA shows right MCA M1 occlusion.\nImpression:\n# Acute right MCA M1 territory infarction\nSuggestion:\n# Acute Stroke Management:\n * Aspirin 3# STAT + 1# QD\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs. Warned about the risk of symptom progression and potential need for EVT evaluation.\n# Admission\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1779721927608,
+      "updatedAt": 1779721927608
     }
   ]
 }
