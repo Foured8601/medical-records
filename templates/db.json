@@ -1505,6 +1505,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1779979085470,
       "updatedAt": 1779979085470
+    },
+    {
+      "id": "t_rv7dbjdf6",
+      "title": "14387991",
+      "content": "A 70 y/o male has past history of\n# Hypertension, DM\nPatient visited ER on 5/25 due to bilateral lower limb weakness. Brain CT showed right basal ganglia and bilateral basal ganglia hypodensity, considered acute infarction, and was discharged with DAPT. He returned to OPD on 5/28 with worsened bilateral lower limb weakness (requiring assistance to walk) and binocular diplopia (worse on rightward and downward gaze). Patient denies any foot pain, urinary abnormalities, or tea-colored/dark urine. He noted right-sided extremities are relatively more weak.\nLKNT: 5/28\nPatient baseline status: Ambulatory with assistance\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: diplopia noted, pupils (R/L: 3mm+/3mm+)\nFacial palsy: none\nDysarthria: none\nDysphagia: none\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/4)\n * lower proximal (R/L: 3/3), lower distal (R/L: 3/3)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: mute/mute\n   Sensory: intact\n   FNF: no dysmetria\nER NIHSS: 4\nImaging Findings:\nBrain CT scan: Right and bilateral basal ganglia hypodensity, suggestive of infarction.\nImpression:\n# Progressing brainstem infarction\nSuggestion:\n# Acute Stroke Management:\n * Keep DAPT usage\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Admission for further evaluation and management\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1779979698511,
+      "updatedAt": 1779979698511
     }
   ]
 }
