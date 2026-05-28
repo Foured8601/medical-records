@@ -1481,6 +1481,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1779864325488,
       "updatedAt": 1779864325488
+    },
+    {
+      "id": "t_a0vmd5pxb",
+      "title": "01",
+      "content": "A 72 y/o male has past history of\n * Denied any underlying disease\n * Smoking 1 PPD for 50 years\nHe presented to our ER due to left facial palsy and drooling when eating since waking up 3 days ago. He rode a scooter to the ER today. He denied dizziness, weakness, nausea/vomiting, headache, loss of consciousness, dysarthria, dysphagia, diplopia, hearing impairment, tinnitus, numbness, or unsteady gait.\nLKNT: 3 days ago\nPatient baseline status independent, GCS E4V5M6, pre-Stroke mRS: 0\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 2mm+/2mm+)\nFacial palsy (+, left peripheral type, incomplete eye closure)\nTongue deviation (-)\nDysarthria (-)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): +/+\n   Babinski sign: R/L: down/down\n   Sensory: pinprick intact\n   FNF: no dysmetria, Romberg test negative, gait steady\nER NIHSS: 0\nImaging Findings:\nBrain CT scan: Hypodense lesion at right temporal lobe, cannot rule out old stroke.\nImpression:\n * Left facial palsy, peripheral type\n * Old CVA\nSuggestion:\n * Aspirin, Compesolon 60mg/day (4 tablets TID), and Famotidine\n * We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n * Neuro OPD follow up\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1779962682635,
+      "updatedAt": 1779962682635
     }
   ]
 }
