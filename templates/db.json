@@ -1561,6 +1561,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1780412706855,
       "updatedAt": 1780412706855
+    },
+    {
+      "id": "t_u1crvbixo",
+      "title": "04307576",
+      "content": "A 51 y/o female has past history of\n# Graves' disease (without medication control for over 20 years)\n# Dyslipidemia\n# Vertebrobasilar artery insufficiency\n# Aspirin allergy\nOn 2026-06-02 at 23:00, she suddenly experienced chest tightness, shortness of breath, and left-sided numbness while watching TV. The numbness involved her left face, trunk, and upper and lower extremities. She presented to the ER via wheelchair with severe anxiety and subjective general weakness secondary to the numbness. She denied dizziness, nausea/vomiting, dysarthria, dysphagia, diplopia, hearing impairment or tinnitus.\nLKNT: 2026-06-02 23:00\nPatient baseline status: GCS E4V5M6, pre-Stroke mRS: 0\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, no nystagmus\nFacial palsy (-)\nDysarthria (-)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 5/4), upper distal (R/L: 5/4) with left pronator drift\n * lower proximal (R/L: 5/4), lower distal (R/L: 5/4)\n   DTR: L4(R/L): +++/+++\n   Babinski sign: R/L: down/down\n   Sensory: left hemi hypoesthesia (face, trunk, and extremities; 6-7/10 compared to right side)\n   FNF: no dysmetria\nER NIHSS: 2\nLab data: Decreased pCO2 with alkalosis, favoring hyperventilation. Cardiac enzymes were checked.\nImaging Findings:\nBrain MRI: Arranged for the morning to evaluate for acute infarction.\nImpression:\n# Acute right subcortical infarction cannot be excluded, minor stroke\n# Anxiety disorder with hyperventilation\n# Chest tightness, r/o cardiogenic cause\nSuggestion:\n# Acute Stroke Management:\n * Clopidogrel 4# STAT + 1# QD (due to Aspirin allergy)\n * IV hydration N/S\n# Follow up cardiac enzymes.\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Suggest admission based on the morning Brain MRI result.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1780424236624,
+      "updatedAt": 1780424236624
     }
   ]
 }
