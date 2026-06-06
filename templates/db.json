@@ -1585,6 +1585,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1780563639519,
       "updatedAt": 1780563639519
+    },
+    {
+      "id": "t_2womemvel",
+      "title": "00567930",
+      "content": "A 79 y/o female has past history of\n * CKD\n * Hypertension\n * Asthma\nShe woke up at 03:00 AM today and was found to have right mouth angle drooling, right-sided numbness, and right-sided weakness. She was brought to our ER this morning. Her family stated the symptoms transiently improved, but obvious weakness persisted upon examination. She denied headache, fever, dizziness, nausea/vomiting, or recent head trauma. She also denied chest pain, and her initial shortness of breath had relieved.\nLKNT: 20:00, June 5th\nBaseline status: alert and oriented\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 2mm+/2mm+), no nystagmus, no ptosis\nFacial palsy: right, central\nDysarthria: negative (baseline)\nDysphagia: negative\nTongue: no deviation\nMotor:\n * upper (R/L: 4/5)\n * lower (R/L: 4-/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: right-sided numbness, no facial sensory loss\nER NIHSS: 5\nImpression:\n * Suspected acute left subcortical infarction\nSuggestion:\n * Acute Stroke Management: EVT was discussed with the family, but they hesitated and refused intubation\n * DAPT without loading dose is suggested due to old age and high bleeding risk\n * We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n * Admission\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1780714759350,
+      "updatedAt": 1780714759350
     }
   ]
 }
