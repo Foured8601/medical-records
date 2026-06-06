@@ -1593,6 +1593,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1780714759350,
       "updatedAt": 1780718255923
+    },
+    {
+      "id": "t_8ptum7p6p",
+      "title": "00240578",
+      "content": "A 105 y/o male has past history of\n# BPH (s/p op)\nOn 6/3, after playing mahjong for four hours, the patient noted onset of slurred speech. He denied any weakness, numbness, dizziness, headache, diplopia, blurred vision, or loss of consciousness. On 6/6, family noted worsening of slurred speech and brought him to the ER.\nLKNT: 6/3 08:00\nPatient baseline status: mRS 3 (ambulates with cane, requires assistance with ADLs, independent with feeding). GCS E4V6M5.\nFocused Neurological Examination\nConsciousness: E4V6M5, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 2mm+/2mm+)\nFacial palsy: right-sided facial palsy\nDysarthria: (+)\nDysphagia: (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: intact\n   FNF: no dysmetria\nER NIHSS: 2\nImaging Findings:\nBrain CT scan: Old lacunar patch in left frontal lobe, no ICH.\nImpression:\n# Acute left subcortical infarction or right pontomedullary junction infarction\nSuggestion:\n# Acute Stroke Management:\n * Aspirin 1# QD, Statin 1# QD\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Admission for further evaluation and management, or MBD with Neuro OPD f/u.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1780731202524,
+      "updatedAt": 1780731202524
     }
   ]
 }
