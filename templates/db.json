@@ -1649,6 +1649,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1780997870572,
       "updatedAt": 1780997870572
+    },
+    {
+      "id": "t_47lx9mddi",
+      "title": "18155909",
+      "content": "A 62 y/o male has past history of\n# Bilateral PAOD\n# DM\nThe patient woke up around 12:00 PM today and suddenly noticed right-sided marked numbness (involving the right lateral face, ear, back, whole right arm, and right leg) and subjective mild right hand weakness, accompanied by mild dizziness. He walked to our ER with his family. He denied loss of consciousness, nausea, vomiting, headache, slurred speech, dysphagia, blurred vision, hearing impairment, or head trauma.\nLKNT: 12:00 PM today (wake-up onset)\nBaseline status: Independent, walked to ER.\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, no nystagmus, no ptosis, pupil (R/L: 2mm+/2mm+)\nFacial palsy: negative\nDysarthria: negative\nDysphagia: negative\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): +/++\n   Babinski sign: R/L: down/down\n   Sensory: right hemi-hypoesthesia (pinprick score R/L: 7/10)\n   FNF: mild intention tremor at right hand\nER NIHSS: 2\nImpression:\n# Suspected acute left subcortical infarction\nSuggestion:\n# Acute Stroke Management:\n * DAPT: Aspirin 1 tab STAT + Clopidogrel 4 tabs loading dose\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Admission was suggested, but the patient requested AAD.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1781005188566,
+      "updatedAt": 1781005188566
     }
   ]
 }
