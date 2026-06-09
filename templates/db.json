@@ -1657,6 +1657,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1781005188566,
       "updatedAt": 1781005188566
+    },
+    {
+      "id": "t_f2j6uowda",
+      "title": "18209190",
+      "content": "A 49 y/o male has past history of\n * Right glioma s/p operation at NTUH 5 years ago, followed by radiotherapy, under stable follow-up\nThis afternoon at the MRT station, he experienced sudden right-sided weakness and slurred speech, resulting in a fall. The weakness was limited to the right half of his body without loss of consciousness. He denied aphasia, nausea/vomiting, headache, and numbness. The symptoms improved after approximately 5 minutes. He denied any similar previous episodes or preceding aura. Upon arrival at the ER, the patient had completely recovered and was able to get out of bed independently.\nLKNT: This afternoon\nPatient baseline status: Mild cognitive and speech impairment secondary to previous brain tumor surgery, GCS E4V5M6, pre-Stroke mRS: 0\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: Mild cognitive speech impairment, no aphasia\nEOM: full, no nystagmus, no ptosis\nFacial palsy: (-)\nDysarthria: (-)\nDysphagia: (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): +++/+++, upper(R/L): +++/+++\n   Babinski sign: R/L: mute/down\n   Sensory: intact\n   FNF: no dysmetria\nER NIHSS: 0\nImaging Findings:\nBrain CT scan: Not performed or not mentioned\nImpression:\n * Transient Ischemic Attack (TIA), ABCD2 score = 3\nSuggestion:\n * Acute Stroke Management:\n   * Aspirin 1# STAT + 1# QD\n   * IV hydration N/S\n * We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n * May be discharged (MBD) and OPD follow up\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1781012325630,
+      "updatedAt": 1781012325630
     }
   ]
 }
