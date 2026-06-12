@@ -1673,6 +1673,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1781018725766,
       "updatedAt": 1781018725766
+    },
+    {
+      "id": "t_pzucob5io",
+      "title": "17652540",
+      "content": "Here is the narrative admission note:\n\nThe patient is a 66-year-old male with an underlying history of hyperlipidemia. Family history is notable for dementia in his mother, who developed the condition at an advanced age, as well as cognitive impairment in a sister, though without a confirmed diagnosis. He initially presented to the neurology outpatient clinic under Dr. 胡 on October 7, 2025, reporting approximately one year of progressive memory decline.\n\nHis cognitive symptoms began insidiously over the preceding year. He has noted occasional forgetfulness of tasks or errands assigned by family members, difficulty remembering where he has placed objects, and episodes of procedural memory lapse — most notably forgetting how to operate the rear wiper on his car while driving, suggesting early executive dysfunction. He denies any hallucinations, delusions, or behavioral disturbances.\n\nCognitive assessment performed on October 14, 2025 revealed an MMSE of 29/30 and a CDR of 0.5, consistent with mild cognitive impairment. He remains near retirement, maintains an active lifestyle including regular weekly hiking, and continues to function independently in daily activities.\n\nBrain MRI obtained on November 20, 2025 demonstrated generalized brain atrophy with a medial temporal atrophy (MTA) score of grade 1. At that time, the patient and family were counseled regarding further workup options including CSF biomarker analysis for Alzheimer’s disease and amyloid PET imaging, though they requested additional time to deliberate.\n\nAt his most recent follow-up on May 26, 2026, the patient and family expressed readiness to proceed with the aforementioned investigations, and he was subsequently admitted for workup. He denies any recent illness, rapid cognitive decline, gait instability, dizziness, headache, nausea, or vomiting. Neurological examination is intact, and the Jerk-Mark (Jolt accentuation) sign is negative.",
+      "categoryId": "cat_pk3l16qq1",
+      "createdAt": 1781240066530,
+      "updatedAt": 1781240066530
     }
   ]
 }
