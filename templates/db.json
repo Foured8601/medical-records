@@ -1689,6 +1689,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1781264435222,
       "updatedAt": 1781264435222
+    },
+    {
+      "id": "t_fgqjet2yk",
+      "title": "03232987",
+      "content": "A 62 y/o male has past history of\n# Cardiovascular disease under CV OPD follow-up, s/p DAPT, currently on Clopidogrel single therapy since April\nThe patient presented to the ER due to acutely aggravated right-sided numbness. He had chronic right hemi-body numbness for 2 to 3 months, which worsened with rightward neck turning or forward bending, radiating to the back. This afternoon on his way home from a friend's house, the numbness spread to the entire right face, involving the occiput, forehead, cheek, and chin. The facial tingling sensation mildly improved after arriving at the ER. He firmly denied weakness, dizziness, vertigo, dysarthria, language problems, unsteady gait, head trauma, and tongue numbness.\nLKNT: This afternoon\nBaseline status: GCS E4V5M6, pre-Stroke mRS: 0\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 3mm+/3mm+)\nFacial palsy (-)\nDysarthria (-)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: no specific dermatome distribution abnormality or pinprick asymmetry\n   Right Spurling test: positive\n   Lhermitte's sign: equivocal\n   FNF: no dysmetria\nER NIHSS: 1 (Sensory) = 1\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage\nImpression:\n# Suspected acute left subcortical infarction, minor stroke\n# Suspected right cervical radiculopathy\nSuggestion:\n# Acute Stroke Management:\n * Add Aspirin to current Clopidogrel (DAPT)\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# AAD with Neuro OPD follow-up as requested by the patient\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1781295451364,
+      "updatedAt": 1781295451364
     }
   ]
 }
