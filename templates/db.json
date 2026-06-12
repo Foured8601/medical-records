@@ -1681,6 +1681,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1781240066530,
       "updatedAt": 1781240736622
+    },
+    {
+      "id": "t_0r54af44h",
+      "title": "02381891",
+      "content": "A female has past history of\n# Hypertension\n# Diabetes mellitus\n# Chronic kidney disease\nHer baseline was mRS 4 (wheelchair bound) before February. She had a urinary tract infection in February, leading to a bedridden status (pre-Stroke mRS: 5). She presented to the ER due to altered mental status, general weakness, and suspected urinary tract infection. Relative left-sided weakness with upper motor neuron signs was noted during evaluation. She denied dysphagia.\nLKNT: Unknown\nPatient baseline status: bedridden, pre-Stroke mRS: 5\nConsciousness: E3V2M4, drowsiness\nLanguage: unable to evaluate completely\nEOM: left eye adduction impairment; right eye unable to open smoothly due to previous cataract\nLeft facial palsy\nDysarthria (+)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 2/2), upper distal (R/L: 4/3)\n * lower proximal (R/L: 2/2), lower distal (R/L: 3/2)\n   DTR: L4(R/L): +/+ (hypoactive)\n   Babinski sign: R/L: mute/up\n   Sensory: unable to evaluate\n   FNF: unable to evaluate\nER NIHSS: unable to evaluate completely\nImaging Findings:\nBrain CT scan: Multiple hypodense lesions at right frontal and left hemisphere, compatible with old infarctions.\nImpression:\n# Altered mental status with general weakness, suspected acute infarction\n# Urinary tract infection\n# Old infarctions\nSuggestion:\n# Acute Stroke Management:\n * Aspirin 1# STAT + 1# QD\n * Continue infection control with antibiotics\n * Arrange Brain MRI stroke protocol to confirm stroke etiology after the infection stabilizes\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Admission to Internal Medicine ward\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1781264435222,
+      "updatedAt": 1781264435222
     }
   ]
 }
