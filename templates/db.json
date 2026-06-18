@@ -1721,6 +1721,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1781681953014,
       "updatedAt": 1781681953014
+    },
+    {
+      "id": "t_zrtd0rrok",
+      "title": "00726577",
+      "content": "A 67 y/o male has past history of\n# Denied any underlying disease\nHe was in his usual state at 14:00 when he went for a nap. Upon waking up at 16:00, he was noted to have left-sided weakness, slow response, and slurred speech. He denied falls, loss of consciousness, recent head trauma, fever, or shortness of breath.\nLKNT: Today 14:00\nPatient baseline status independent, pre-Stroke mRS: 0\nFocused Neurological Examination\nConsciousness: E4V4M6, slow response\nLanguage: no aphasia\nEOM: left gaze limitation, no nystagmus, no ptosis\nFacial palsy: no tongue deviation noted\nDysarthria (+)\nDysphagia (+)\nMotor:\n * upper proximal (R/L: 5/4+), upper distal (R/L: 5/4+)\n * lower proximal (R/L: 5/4+), lower distal (R/L: 5/4+)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/equivocal\n   Sensory: left visual, auditory, and tactile hemineglect\n   FNF: no dysmetria or intention tremor\nER NIHSS: 6\nImaging Findings:\nBrain CT scan: Large hypodensity at right M2 territory with ASPECT score 6\nBrain MRI: Right M1 and M2 MCA occlusion with acute infarction, and left cervical ICA disease\nImpression:\n# Acute right M1/M2 MCA infarction and occlusion\n# Left cervical ICA disease\nSuggestion:\n# Acute Stroke Management:\n * EVT is indicated\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs. We also explained the risks of post-EVT intubation, brain edema, and intracranial hemorrhage; the family agreed to the surgery.\n# ICU admission\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1781802263273,
+      "updatedAt": 1781802263273
     }
   ]
 }
