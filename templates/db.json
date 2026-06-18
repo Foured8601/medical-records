@@ -1745,6 +1745,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1781803742801,
       "updatedAt": 1781803742801
+    },
+    {
+      "id": "t_7sa52vf5a",
+      "title": "03034314",
+      "content": "A 68 y/o male has past history of\n# OCD\nThe patient was found to have right hand clumsiness, weakness, and mild numbness extending to the back after waking up at 06:00 today. His family noted that he had falling down episodes four times today, though the patient did not complain of leg weakness. He denied dizziness, headache, diplopia, hearing impairment, loss of consciousness, or head trauma.\nLKNT: Today 06:00\nPatient baseline status: independent\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full\nFacial palsy (-)\nDysarthria (-)\nDysphagia (-)\nMotor:\n * upper (R/L: 4/5), right pronator drift\n * lower (R/L: 4+/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: equivocal/equivocal\n   Sensory: mild numbness over right hand extending to back\n   FNF: right dysmetria, left normal; Heel-knee-shin: right dysmetria, left normal\nER NIHSS: right arm 1, coordination 2 = 3\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage. Suspected old infarctions at bilateral basal ganglia.\nImpression:\n# Minor stroke, suspected left subcortical infarction\nSuggestion:\n# Acute Stroke Management:\n * DAPT loading (Clopidogrel + Aspirin STAT) + 1 tab QD each\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Admission was suggested but the patient requested AAD. Arranged Neuro OPD follow-up next Monday.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1781804028016,
+      "updatedAt": 1781804028016
     }
   ]
 }
