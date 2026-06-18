@@ -1729,6 +1729,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1781802263273,
       "updatedAt": 1781802263273
+    },
+    {
+      "id": "t_pch17taa0",
+      "title": "09456992",
+      "content": "A 60 y/o female has past history of\n * Hypertension\n * DM\n * Aspirin use for stroke or VAD prevention\nAt 17:00 on June 18, she experienced sudden onset of left-sided numbness extending from her face to her hand and foot while watching TV. She also felt subjective left-sided weakness. She denied dizziness, objective weakness, nausea, vomiting, headache, dysarthria, dysphagia, diplopia, hearing impairment or tinnitus. Upon arrival at the ER, her left hemi-numbness persisted but had slightly improved compared to when she was at home.\nLKNT: 2026-06-18 17:00\nPatient baseline status: GCS E4V5M6\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nFacial palsy: negative\nDysarthria: negative\nDysphagia: negative\nMotor:\n * upper (R/L: 5/5)\n * lower (R/L: 5/5)\n   DTR: L4(R/L): +/+\n   Babinski sign: R/L: down/down\n   Sensory: left hemi-hyperesthesia to pinprick (Left 12/10 vs Right 10/10)\nER NIHSS: Sensory 1 = 1\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage seen\nImpression:\n# Minor stroke, suspected acute right subcortical infarction\nSuggestion:\n# Acute Stroke Management:\n * Current Aspirin use continued\n * Add Clopidogrel 4 tablets STAT and 1 tablet QD\n * Famotidine added for GI protection\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# May be discharged (MBD) and Neuro OPD follow up\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1781803064198,
+      "updatedAt": 1781803064198
     }
   ]
 }
