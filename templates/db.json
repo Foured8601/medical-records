@@ -1873,6 +1873,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1782525256862,
       "updatedAt": 1782525256862
+    },
+    {
+      "id": "t_fvd9girka",
+      "title": "14457348",
+      "content": "A 86 y/o male has past history of\n# Brainstem infarction in 2021\n# Parkinson's disease\nThe patient was found at 03:00 AM experiencing significant dizziness and discomfort. He had intermittent mild vomiting and suspected mild diarrhea. He denied severe headache, loss of consciousness, and recent head trauma. He also denied fever or cold symptoms. Symptoms did not improve after dizziness relief medications given at the ER.\nLKNT: 06/27 03:00 AM\npre-Stroke mRS: 1. He had dizziness sequela from previous stroke without weakness or slurred speech, which recovered by 2024 and he could go out independently.\nConsciousness: E4V4M6, stupor with slow response\nLanguage: no aphasia\nEOM: full, obvious gaze-evoked nystagmus (no upbeating or downbeating nystagmus), negative skew test, pupil (R/L: 2mm+/2mm+)\nFacial palsy (-)\nDysarthria (+)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): +/+\n   Babinski sign: R/L: down/down\n   Sensory: intact bilaterally\n   FNF: bilateral dysmetria and intention tremor (left > right), no obvious overshooting\nER NIHSS: dysarthria 1, ataxia 2 = 3\nImaging Findings:\nBrain CT scan: Hypodense lesion at left cerebellum, cannot rule out recent infarction, no IVH\nImpression:\n# Acute left cerebellar infarction\nSuggestion:\n# Acute Stroke Management:\n * Add Aspirin to current Clopidogrel\n * IV hydration N/S\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n# Arrange Brain MRI for confirmation, consider admission\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1782526053406,
+      "updatedAt": 1782526053406
     }
   ]
 }
