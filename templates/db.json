@@ -1865,6 +1865,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1782524668472,
       "updatedAt": 1782524668472
+    },
+    {
+      "id": "t_1fmboblt6",
+      "title": "05664663",
+      "content": "A 82 y/o male has past history of\n# Hypertension\n# Dyslipidemia\n# Diabetes mellitus\nHe presented with left-sided numbness involving his left upper and lower limbs, abdomen, and chest since 05:00 today. The numbness was described as a prickling sensation. The symptoms partially relieved 1 to 2 hours later, and he only complained of mild left distal limb numbness at the ER. He noted occasional mild distal numbness in the past but denied similar severe episodes. He also noted high blood pressure at home and took 2 tablets of NTG sublingually by himself. He denied weakness, dysarthria, nausea/vomiting, headache, diplopia, hearing impairment, or dizziness.\nLKNT: 06/26 22:00\nPatient baseline status: independent, GCS E4V5M6\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 3mm+/3mm+)\nFacial palsy (-)\nDysarthria (-)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: left distal upper and lower limbs numbness\n   FNF: no dysmetria\nER NIHSS: Total = 0\nImaging Findings:\nBrain CT scan: No intracranial hemorrhage\nImpression:\n# TIA, ABCD2 = 4\nSuggestion:\n# Acute Stroke Management:\n * DAPT: Clopidogrel 4 tablets STAT, then 1 tablet QD\n * Advised not to use NTG without medical instruction\n# We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs. Instructed to return to ER if similar symptoms occur.\n# OPD follow-up\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1782525256862,
+      "updatedAt": 1782525256862
     }
   ]
 }
