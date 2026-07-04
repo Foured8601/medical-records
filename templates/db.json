@@ -1889,6 +1889,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1783136187616,
       "updatedAt": 1783141743617
+    },
+    {
+      "id": "t_ayoggvg4p",
+      "title": "06762876",
+      "content": "A 73 y/o female has past history of\n * Hypertension, DM, CKD stage 3B\nThe patient awoke at 06:00 AM with right-sided limb weakness, noting she was completely unable to move them, along with slurred speech. The symptoms spontaneously resolved after she rested for one hour. She denied sensory abnormalities, nausea, vomiting, tinnitus, diplopia, or recent fever.\nLKNT: 06:00 AM\nPatient baseline status: Recovered to normal muscle power in the ER\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: intact\nFacial palsy (-)\nDysarthria (-)\nDysphagia (-)\nMotor:\n * upper (R/L: 5/5)\n * lower (R/L: 5/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: intact\nER NIHSS: Total 0\nImpression:\n * TIA, ABCD2 score = 5\nSuggestion:\n * Acute Stroke Management:\n   * DAPT (Aspirin 1 tab STAT + Clopidogrel 4 tabs STAT, then 1 tab QD each)\n   * IV hydration N/S\n * We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n * Admission\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1783145275843,
+      "updatedAt": 1783145275843
     }
   ]
 }
