@@ -1897,6 +1897,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1783145275843,
       "updatedAt": 1783145275843
+    },
+    {
+      "id": "t_qh9se91f8",
+      "title": "01415292",
+      "content": "A 51 y/o female has past history of\n * Coronary artery disease (lost follow-up, off Aspirin)\nAt 13:30 today, she experienced right facial palsy with drooling and mild right facial numbness while eating. Tracing back, the drooling had persisted for over 2 weeks, but the facial numbness was newly noted today. She has had occasional left limbs numbness previously, which was absent today. She works as a cleaner and reported a poor sleep schedule with high life stress. She denied slurred speech, other language problems, headache, nausea, vomiting, fever, recent URI, or vaccination.\nLKNT: 13:30 today\nPatient baseline status: independent, GCS E4V5M6\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full\nFacial palsy: right, peripheral type\nDysarthria: no\nDysphagia: no\nTongue: right deviation\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): +/+\n   Babinski sign: R/L: down/down\n   Sensory: right facial numbness (improved at ER), no onion skin distribution\n   FNF: no dysmetria\nER NIHSS: 0\nImaging Findings:\nBrain MRI without contrast: arranged\nImpression:\n * Suspected right Bell's palsy (peripheral facial neuropathy)\n * R/O acute stroke\nSuggestion:\n * Compesolon 60mg/day (4 tablets TID) and Famotidine\n * Resume Aspirin\n * Arrange Brain MRI stroke protocol without contrast to rule out acute stroke\n * We have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\n * Further plan depends on MRI results.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1783158086805,
+      "updatedAt": 1783158086805
     }
   ]
 }
