@@ -1993,6 +1993,14 @@
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1784180150448,
       "updatedAt": 1784192858252
+    },
+    {
+      "id": "t_1ts0zd4lc",
+      "title": "17977753",
+      "content": "A 66 y/o male has past history of\nCKD\nUpper GI bleeding\nAt 12:00 PM today, the patient was found by his family to have conscious disturbance, slurred speech, and suspected aphasia. He also had new-onset tarry stool and poor appetite today. He denied nausea, vomiting, fever, or coffee-ground vomitus. His speech and consciousness improved significantly to fully oriented upon ER evaluation.\nLKNT: 12:00 PM today\nPatient baseline status independent, GCS E4V5M6, pre-Stroke mRS: 0\nFocused Neurological Examination\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 3mm+/3mm+)\nNo facial palsy\nNo dysarthria\nNo dysphagia\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: intact\n   FNF: no dysmetria\nER NIHSS: 0\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage\nImpression:\nTIA, r/o stroke mimic due to GI bleeding\nUpper GI bleeding with tarry stool\nSuggestion:\nAcute Stroke Management:\n * IV hydration N/S\n * Anti-platelet is not suggested to be prescribed currently due to active GI bleeding risk (tarry stool).\nWe have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\nSuggest internal medicine evaluation for GI bleeding and arrange Brain MRI if indicated to rule out stroke.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1784213509154,
+      "updatedAt": 1784213509154
     }
   ]
 }
