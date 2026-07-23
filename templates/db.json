@@ -2052,11 +2052,11 @@
     },
     {
       "id": "t_s067z6npu",
-      "title": "AGY CLI",
-      "content": "Mac 的 AGY CLI 已可正常使用，唯讀 probe 與 `--add-dir` probe 都通過；但尚未建立 adapter。\n\n- `command -v agy` → `/Users/wangshihong/.local/bin/agy`\n- `agy --version` → `1.1.5`（exit 0）\n- `agy --help` → 所需 `--add-dir`、`--model`、`--mode`、`--sandbox`、`--print-timeout`、`--print` 旗標皆存在。\n- `agy models` → 成功列出 Gemini 3.6/3.5/3.1，以及 Claude、gpt-oss 模型；包含 `gemini-3.6-flash-medium`（exit 0）。\n- 設定檔存在：`~/.gemini/antigravity-cli/settings.json`；未讀取內容或任何憑證。\n- 指定 smoke test → `AGY_MAC_READY`，exit `0`。\n- 加上 `--add-dir /Users/wangshihong/agy-smoke-test` 的唯讀 probe → `AGY_ADD_DIR_READY`，exit `0`。\n- 測試 Git 目錄的 `git status --short` 為空，沒有工作區改動。\n\n目前兩個缺口：\n\n- NIA 規格檔 `/Users/wangshihong/.ai/skills/agy-delegation/SKILL.md` 不存在，無法宣稱 adapter 已遵守該正本。\n- 系統找不到 `timeout` 或 `gtimeout`；正式 adapter 若需防止 CLI 啟動前卡住，需先由您決定是否安裝 `coreutils`（`brew install coreutils`）。\n\n請您決定是否要我下一步：先找出／建立 NIA 規格，並在確認是否安裝 `coreutils` 後建立「預設唯讀、sandbox、明確 timeout」的 Mac shell adapter。",
+      "title": "TMU C",
+      "content": "https://tmuc.tmu.edu.tw/EmployeeApp/Pages/Login.aspx",
       "categoryId": "cat_pk3l16qq1",
       "createdAt": 1784772410426,
-      "updatedAt": 1784772410426
+      "updatedAt": 1784780801089
     }
   ]
 }
