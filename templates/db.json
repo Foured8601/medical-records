@@ -2241,6 +2241,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1787916471610,
       "updatedAt": 1787916471610
+    },
+    {
+      "id": "t_4qk1w06t8",
+      "title": "10059926",
+      "content": "老師好 急診啟動一床\n10059926\n78 year old female\nPast Hx: denied\npre-mRS: 1 \n\nLKNT: 08/28 09:00AM\n因 consciousness change 合併 right side weakness 至急診。\nArrival GCS E1V1M4，後續改善至 E3V1M4。\nBP 143/82 mmHg，glucose 544 mg/dL。\n\nNE:\nGCS: E3V1M4\nEOM: left gaze limitation\nFacial palsy: right\nMP RU/LU/RL/LL = 2/4/2/5\nright barbinski up\nNIHSS: 222 101 1303 00320 = 20\n\n目前啟動 Brain CT iRapid",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1787962966204,
+      "updatedAt": 1787962966204
     }
   ]
 }
