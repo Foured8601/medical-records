@@ -2257,6 +2257,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1788228313192,
       "updatedAt": 1788228313192
+    },
+    {
+      "id": "t_05alg1gn2",
+      "title": "06572820",
+      "content": "A 62 y/o male has past history of\nHypertension without regular medical control\nTransient ischemic attack (diagnosed at Tainan hospital 1 month ago under Aspirin, antihypertensive agents, and Famotidine)\nHe suffered from sudden onset of right hand clumsiness, right sided weakness, left facial palsy, slurred speech, and dizziness upon waking up at 05:30 this morning. The symptoms persisted for approximately 20 minutes and gradually resolved before arrival at our ER. He denied fever, headache, head trauma, loss of consciousness, convulsions, nausea, vomiting, diplopia, dysphagia, or sensory loss.\nLKNT: This morning 05:30\nPatient baseline status: GCS E4V5M6, pre-Stroke mRS: 0\nFocused Neurological Examination:\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 3mm+/3mm+)\nFacial palsy: negative\nDysarthria: negative\nDysphagia: negative\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: intact\n   FNF: no dysmetria\nER NIHSS: 0\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage or definite acute infarction seen\nImpression:\nRecurrent transient ischemic attack (TIA)\nSuggestion:\nAcute Stroke Management:\n * Clopidogrel 4# STAT + 1# QD PO\n * Continue Aspirin 1# QD PO\n * Famotidine 1# QD PO\n * IV hydration N/S\nWe have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\nArrange admission for further evaluation and stroke survey.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1788228608526,
+      "updatedAt": 1788228608526
     }
   ]
 }
