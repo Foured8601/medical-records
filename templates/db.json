@@ -2273,6 +2273,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1788526004408,
       "updatedAt": 1788526004408
+    },
+    {
+      "id": "t_hhyukjdci",
+      "title": "00255530",
+      "content": "A male has past history of\nOld left PCA territory infarction\nCoronary artery disease s/p stent placement\nHypertension\nHe presented to our ER due to sudden onset of dizziness, right leg numbness, left facial palsy, and slurred speech while doing dishes around 18:00 this evening. After arriving at the ER, his dizziness, slurred speech, and right leg numbness improved, with residual left facial palsy. He denied headache, fever, nausea, vomiting, diplopia, dysphagia, chest tightness, shortness of breath, seizure, or head trauma. He reported a habit of taking medications with rice wine; education was provided and adequate hydration was advised.\nLKNT: Today 18:00\nPatient baseline status: GCS E4V5M6, pre-Stroke mRS: 1\nFocused Neurological Examination:\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 2.5mm+/2.5mm+)\nFacial palsy: left facial palsy (+)\nDysarthria: improved, (-)\nDysphagia: (-)\nTongue deviation: (-)\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: right leg numbness improved, currently intact\n   FNF: no dysmetria\nER NIHSS: 1 (facial palsy: 1) = 1\nImaging Findings:\nBrain CT scan: Compatible with old left PCA territory infarction and old right frontal infarction; no acute intracranial hemorrhage or new hypodense lesion.\nImpression:\nSuspected minor stroke progression with transient ischemic attack (TIA) symptoms, left facial palsy\nSuggestion:\nAcute Stroke Management:\n * Maintain current antiplatelet regimen: Aspirin 1# QD + Ticagrelor 1# BID PO (patient accepts no additional triple antiplatelet therapy after explanation)\n * IV hydration N/S, advise adequate fluid intake and avoid taking medications with alcohol\nWe have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs and reminded them about the red flag sign.\nArrange MBD with Neurology OPD follow-up.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1788530967112,
+      "updatedAt": 1788530967112
     }
   ]
 }
