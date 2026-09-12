@@ -2313,6 +2313,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1789191875774,
       "updatedAt": 1789191875774
+    },
+    {
+      "id": "t_io2sf6k31",
+      "title": "00893651",
+      "content": "A male has past history of\nHypertension under regular medication control at LMD\nChronic kidney disease (CKD)\nEx-smoker\nDenied diabetes mellitus\nHe experienced intermittent right lower limb weakness since 09/11, which partially resolved. However, recurrent episode developed today, accompanied by right upper limb weakness, slurred speech, and transient inability to speak, lasting around 10 to 20 minutes before spontaneous recovery. Home SBP was around 170 mmHg, and ER blood pressure was under 140/90 mmHg. He denied headache, dizziness, nausea, vomiting, diplopia, dyspnea, numbness, head trauma, seizure, or fever.\nLKNT: 09/12\nPatient baseline status: independent, GCS E4V5M6, pre-Stroke mRS: 0\nFocused Neurological Examination:\nConsciousness: E4V5M6, alert\nLanguage: no aphasia\nEOM: full, pupil (R/L: 2.5mm+/2.5mm+)\nFacial palsy: negative\nTongue deviation: negative\nDysarthria: negative\nDysphagia: negative\nMotor:\n * upper proximal (R/L: 5/5), upper distal (R/L: 5/5)\n * lower proximal (R/L: 5/5), lower distal (R/L: 5/5)\n   (Note: Patient subjectively felt right lower limb strength returned to about 70-80% of baseline; right pronator drift: equivocal/positive)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down (negative)\n   Sensory: intact, no sensory complaint\n   FNF: no dysmetria\nER NIHSS: 0\nImaging Findings:\nBrain CT scan: No acute intracranial hemorrhage or definite acute infarction seen.\nImpression:\nTransient ischemic attack (TIA), ABCD2 score = 4, recurrent episodes within 24 hours (crescendo TIA)\nSuggestion:\nAcute Stroke / TIA Management:\n * Dual antiplatelet therapy (DAPT): Aspirin + Clopidogrel loading\n * IV hydration N/S\nWe have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs, and warned about red flag signs.\nSuggest Admission for further stroke survey (including brain MRI, vascular imaging, and risk factor evaluation)\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1789199887371,
+      "updatedAt": 1789199887371
     }
   ]
 }
