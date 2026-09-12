@@ -2321,6 +2321,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1789199887371,
       "updatedAt": 1789199887371
+    },
+    {
+      "id": "t_gpsk9oyeg",
+      "title": "00619938",
+      "content": "A 83 y/o male has past history of\nHTN, DM, Af\nHe presented with acute onset left-sided weakness and slurred speech noted by family around 16:30. Decreased consciousness and drowsy reaction were also observed. He denied fever, head trauma, seizure-like activity, severe headache, dizziness, nausea/vomiting, dysphagia, diplopia, hearing impairment or tinnitus.\nLKNT: 09/12 16:00\nBaseline status GCS E4V4M6, pre-Stroke mRS: 1\nFocused Neurological Examination\nConsciousness: E4V4M6, drowsy, able to obey simple orders\nLanguage: no obvious aphasia\nEOM: mild limitation on leftward gaze, pupil (R/L: 3mm+/3mm+)\nFacial palsy (+, central)\nDysarthria (+)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 5/2), upper distal (R/L: 5/2)\n * lower proximal (R/L: 5/2), lower distal (R/L: 5/2)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/up\n   Sensory: intact\n   FNF: couldn't be fully tested over left side due to profound weakness\nER NIHSS: 111 100 3030 00010 = 11\nImaging Findings:\nBrain CT scan: Early ischemic changes in right MCA territory, ASPECT score approximately 8. No acute intracranial hemorrhage.\nBrain CTA for EVT: Right M1 occlusion.\nImpression:\nAcute right MCA ischemic stroke with M1 occlusion, left hemiparesis\nSuggestion:\nAcute Stroke Management:\n * IV rtPA thrombolysis indicated and administered within the 4.5-hour therapeutic window; the hemorrhagic risks have been thoroughly explained to the family.\n * EVT procedure activated immediately due to confirmed large vessel occlusion (LVO).\n * IV hydration N/S.\n * Arrange ICU admission for close monitoring post-EVT.\nWe have explained the clinical course to the family and the patient, please keep f/u clinical symptoms and signs.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1789215281010,
+      "updatedAt": 1789215281010
     }
   ]
 }
