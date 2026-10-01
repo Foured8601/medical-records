@@ -2425,6 +2425,14 @@
       "categoryId": "cat_6lploth73",
       "createdAt": 1790607759669,
       "updatedAt": 1790607830111
+    },
+    {
+      "id": "t_2m1hocz7h",
+      "title": "01430525",
+      "content": "This 95 y/o female has past history of\nCAD, dyslipidemia without regular medication currently\nAccording to her family, she had upper respiratory symptoms since last week and received a Cefazolin injection at a local clinic. No fever was noted today at the clinic, but sudden consciousness change occurred. After lying flat, limb convulsions starting from the right hand with upward eye gazing were noted, lasting about 10 minutes and resolving spontaneously, but speech did not return to baseline. At ER, two more GTC seizure episodes occurred. After Anxicam administration, the seizure stopped. She denied trauma, fever, or prior seizure history.\nLKNT: 2026/10/01\nGCS: E1V1M4 (drowsy status)\nConsciousness: E1V1M4, drowsy\nLanguage: unable to evaluate\nEOM: full, no gaze deviation, pupil (R/L: 3mm+/3mm+)\nFacial palsy (-)\nDysarthria (-)\nDysphagia (-)\nMotor:\n * upper proximal (R/L: 2/2), upper distal (R/L: 2/2)\n * lower proximal (R/L: 2/2), lower distal (R/L: 2/2)\n   DTR: L4(R/L): ++/++\n   Babinski sign: R/L: down/down\n   Sensory: unable to evaluate\n   FNF: unable to cooperate\nLab data:\nMild leukocytosis with neutrophil predominance; Lactate 2.5, CRP 0.34; No fever.\nBrain CT scan:\nBrain atrophy; No IPH or hyperdense sign noted.\nImpression:\nRecurrent GTC Seizure, seizure status with incomplete recovery between episodes\nSuspected pneumonia, r/o occult infection\nSuggestion:\n * Keppra 2000mg IVD STAT, followed by 1000mg Q12H.\n * Empiric antibiotic (Crestor/Unasyn or equivalent) added for suspected pneumonia.\n * We have explained the clinical course to the family and the patient, including the possible need for Dormicum pump infusion and endotracheal intubation if symptoms deteriorate; family requested further discussion.\n * Arrange admission.\nResident S-H Wang (#2545)",
+      "categoryId": "cat_6lploth73",
+      "createdAt": 1790872895400,
+      "updatedAt": 1790872895400
     }
   ]
 }
